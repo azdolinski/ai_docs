@@ -5,62 +5,101 @@
 ```mermaid
 mindmap
   root((Google Prompting Essentials))
-    1. Efektywne Prompty
-      1.1. 5-etapowy Schemat
-        1.1.1 Zadanie
-          1.1.1.1 Cel
-          1.1.1.2 Persona
-          1.1.1.3 Format
-        1.1.2 Kontekst
-          1.1.2.1 Szczegóły
-        1.1.3 Przykład
-          1.1.3.1 Inspiracja
-        1.1.4 Ocena
-          1.1.4.1 Sprawdź Wynik
-        1.1.5 Modyfikacja
-          1.1.5.1 Ulepsz Prompt
-      1.2. Cykl Działań
-        1.2.1 Ograniczenia
-        1.2.2 Przeanalizuj Schemat
-        1.2.3 Podziel Prompty
-        1.2.4 Zmień Formułowanie
-        1.2.5 Uprość Zadanie
-    2. Umiejętności AI w Pracy
-      2.1 Zmiana Zawodów
-      2.2 Wyższe Wynagrodzenie
-      2.3 Częstsze Awansy
-    3. Multimodal Prompting
-      3.1 Obrazy
-        3.1.1 Użyj Zdjęcia
-        3.1.2 Pytania o Obraz
-        3.1.3 Ograniczenia Elementów
-      3.2 Dźwięki
-        3.2.1 Użyj Nagrania
-        3.2.2 Opis Nagrania
-        3.2.3 Kontekst Dźwięku
-      3.3 Łączenie Formatów
-        3.3.1 Przykłady Różne
-        3.3.2 Istotność Formatów
-      3.4 Pogłębianie Wiedzy
-        3.4.1 Pismo + Dźwięk/Obraz
-        3.4.2 Wszechstronne Poznawanie
-    4. Ekspert AI
-      4.1 Persona AI
-      4.2 Kontekst Rozmowy
-      4.3 Typ Rozmowy
-      4.4 Słowo-Klucz Koniec
-      4.5 Wnioski i Poprawa
-    5. Prompt Chaining
-      5.1 Wynik jako Kontekst
-      5.2 Wyjaśnienie Wyniku (Chain of Thought)
-      5.3 Porównanie Wyników (Drzewo Decyzyjne)
-    6. Odpowiedzialne AI
-      6.1 Skutki Użycia
-      6.2 Zgoda na Użycie
-      6.3 Prywatność i Bezpieczeństwo
-      6.4 Ocena Materiału
-      6.5 Transparentność
-    7. Google Career Certificates
+    5-etapowy schemat formułowania promptu
+      Zadanie
+        Precyzyjne określenie oczekiwań
+        Persona
+        Format odpowiedzi
+      Kontekst
+        Istotne szczegóły
+        Więcej kontekstu = lepsza odpowiedź
+      Przykład
+        Pożądane odpowiedzi/formaty
+        Ułatwia zrozumienie
+      Ocena
+        Jakość i zgodność
+        Pomocność i adekwatność
+      Modyfikacja
+        Doprecyzowanie potrzeb
+        Iteracyjny proces
+    Iteracyjne poprawianie promptów
+      Wprowadź ograniczenia
+        Czego AI nie powinno robić
+        Skupienie AI
+      Ponownie przeanalizuj 5-etapowy schemat
+        Doprecyzowanie etapów
+      Podziel złożone prompty
+        Mniejsze, szczegółowe prompty
+        Łatwiejsze zrozumienie
+      Eksperymentuj z formułowaniem
+        Testuj różne sformułowania
+        Prostsze zadania dla zrozumienia
+    Statystyki dotyczące wpływu AI na rynek pracy
+      8/10 osób - AI zmieni zawody
+      82% liderów - wyższe wynagrodzenie za AI
+      74% liderów - częstsze awanse za AI
+      Wartość umiejętności AI
+    Promptowanie multimodalne
+      Łącz formaty
+        Tekst, obraz, dźwięk
+      Prompty z obrazami
+        Zdjęcia jako element promptu
+        Pytania o treść obrazu
+        Ograniczenia wizualne
+      Prompty z dźwiękami
+        Nagrania głosu/muzyki
+        Opis nagrania
+        Kontekst dla interpretacji
+      Integruj różne formaty
+        Przykłady w różnych formatach
+        Istotność formatów
+      Pogłębiaj wiedzę multimodalnie
+        Pisemne + dźwięk/obraz
+        Intuicyjna interakcja
+    Projektowanie eksperta AI
+      Zdefiniuj personę eksperta AI
+        Mentor, doradca, specjalista
+        Styl komunikacji
+      Określ kontekst sytuacyjny
+        Sytuacja i cel wsparcia
+      Sprecyzuj typ rozmowy
+        Q&A, współpraca, feedback
+        Rodzaj interakcji
+      Ustal słowo-klucz
+        Zakończenie rozmowy
+      Poproś o kluczowe wnioski
+        Podsumowanie i wskazówki
+    Łączenie promptów (Prompt Chaining)
+      Wynik promptu jako kontekst
+        Sekwencja promptów
+        Złożone interakcje
+      Wyjaśnienie procesu rozumowania
+        Chain of thought
+        Zrozumienie procesu AI
+      Porównywanie wyników równolegle
+        Drzewo decyzyjne
+        Różne ścieżki rozumowania
+        Optymalne rozwiązanie
+    Zasady odpowiedzialnego korzystania z AI
+      Rozważ konsekwencje
+        Etyczne i społeczne aspekty
+      Uzyskaj zgodę
+        Pozwolenia w organizacji
+        Polityki i regulaminy
+      Chroń prywatność i bezpieczeństwo danych
+        Ochrona danych osobowych
+        Bezpieczeństwo narzędzi AI
+      Weryfikuj materiały
+        Dokładność i rzetelność
+      Bądź transparentny
+        Informuj o użyciu AI
+        Buduj zaufanie
+    Google Career Certificates
+      Umiejętności AI cenione
+      Programy certyfikacyjne Google
+    Źródła
+      Google, Ipsos - Ankieta 17 krajów
+      EdX - Rynek pracy i AI
 ```
 
 ___
@@ -68,144 +107,169 @@ ___
 # 🗒️ Notatka
 
 
-# Google Prompting Essentials: Twórz prompty, które działają - Notatki i Podsumowanie
+# Google Prompting Essentials: Twórz skuteczne prompty
 
-Niniejszy dokument zawiera szczegółowe notatki i podsumowanie transkryptu dotyczącego tworzenia efektywnych promptów dla generatywnej sztucznej inteligencji (AI), w oparciu o materiał \"Google Prompting Essentials\". Materiał ten przedstawia kluczowe zasady i techniki, które pomogą użytkownikom w pełni wykorzystać potencjał narzędzi AI.
+Poniższe notatki stanowią podsumowanie kluczowych aspektów tworzenia efektywnych **promptów** dla generatywnej sztucznej inteligencji (AI), zgodnie z materiałami Google Prompting Essentials. Dokument ten omawia 5-etapowy schemat formułowania **promptów**, iteracyjne ich doskonalenie, **prompty multimodalne**, projektowanie ekspertów AI, łączenie **promptów** (`prompt chaining`) oraz zasady odpowiedzialnego korzystania z AI.
 
-## 1. Podstawy Tworzenia Efektywnych Promptów
+## 5-etapowy schemat formułowania promptu
 
-### 1.1. 5-etapowy Schemat Formułowania Promptu
+Skuteczne formułowanie **promptów** opiera się na pięciu kluczowych etapach, które pomagają w uzyskaniu satysfakcjonujących odpowiedzi od narzędzi generatywnej AI.
 
-Ten schemat stanowi kluczowy element w tworzeniu promptów, które przynoszą oczekiwane rezultaty. Składa się z pięciu kroków, które należy przejść, aby skutecznie komunikować się z narzędziem generatywnej AI:
+- **Zadanie:**
+    - Precyzyjnie określ, czego oczekujesz od narzędzia AI.
+    - Wskaż **personę**, do której ma przemawiać AI (np. ekspert, dziecko, profesjonalista).
+    - Zdefiniuj **format** odpowiedzi (np. esej, lista, kod).
 
-- **Zadanie (Zdefiniuj cel):**
-    - Dokładnie określ, **czego oczekujesz** od narzędzia AI.
-    - Wskaż **personę**, do której ma mówić AI (np. ekspert, dziecko, profesjonalista).
-    - Określ **format** odpowiedzi (np. esej, lista, kod, wiersz).
-    - *Przykład:* \"Wciel się w rolę doświadczonego dietetyka i stwórz listę 5 przepisów na zdrowe śniadania bogate w białko.\"
+- **Kontekst:**
+    - Dostarcz wszelkie istotne szczegóły, które pomogą narzędziu AI zrozumieć Twoje oczekiwania.
+    - Pamiętaj, im więcej kontekstu, tym odpowiedź będzie bardziej precyzyjna i trafna.
 
-- **Kontekst (Dodaj szczegóły):**
-    - Przekaż **wszystkie istotne informacje**, które pomogą AI zrozumieć Twoje oczekiwania.
-    - Im więcej kontekstu, tym lepsza i bardziej precyzyjna odpowiedź.
-    - *Przykład:* \"Mam 30 lat, trenuję 3 razy w tygodniu i chcę zwiększyć masę mięśniową. Nie jem mięsa, ale spożywam nabiał i jajka.\"
+- **Przykład:**
+    - Jeśli to możliwe, podaj przykłady pożądanych odpowiedzi lub formatów.
+    - Przykłady znacząco ułatwiają AI zrozumienie preferowanego typu odpowiedzi.
 
-- **Przykład (Dostarcz inspiracji):**
-    - Jeśli to możliwe, podaj **przykłady** pożądanych odpowiedzi lub formatów.
-    - Przykłady mogą znacząco ułatwić AI zrozumienie Twojej wizji.
-    - *Przykład:* \"Chciałbym, aby przepisy były podobne do tych z bloga [nazwa bloga], czyli krótkie, z listą składników i prostymi instrukcjami.\"
+- **Ocena:**
+    - Po otrzymaniu odpowiedzi, oceń jej jakość i zgodność z oczekiwaniami.
+    - Zastanów się, czy odpowiedź jest pomocna i adekwatna do zadanego zadania.
 
-- **Ocena (Sprawdź wynik):**
-    - Po otrzymaniu odpowiedzi, **oceń**, czy jest ona wystarczająca i spełnia Twoje oczekiwania.
-    - Czy odpowiedź jest trafna, pomocna i zgodna z zadaniem?
+- **Modyfikacja:**
+    - Jeśli odpowiedź nie spełnia oczekiwań, doprecyzuj swoje potrzeby.
+    - Wprowadź poprawki do **promptu** i spróbuj ponownie, aż uzyskasz pożądany rezultat.
+    - Pamiętaj, że proces formułowania **promptów** jest iteracyjny.
 
-- **Modyfikacja (Ulepsz prompt):**
-    - Jeśli odpowiedź **nie jest satysfakcjonująca**, doprecyzuj prompt.
-    - Wprowadź **poprawki**, dodaj więcej kontekstu, zmień format, aż uzyskasz pożądany rezultat.
-    - To iteracyjny proces - **poprawiaj i próbuj dalej**.
+## Iteracyjne poprawianie promptów
 
-### 1.2. Cykl Działań - W razie Wątpliwości, Poprawiaj i Próbuj Dalej
+Tworzenie efektywnych **promptów** to proces iteracyjny, wymagający udoskonalania. W przypadku wątpliwości, warto zastosować cykl iteracyjny, aby podnieść jakość **promptów**.
 
-Diagram przedstawia cykliczne podejście do formułowania promptów, podkreślając iteracyjny charakter procesu:
+- **Wprowadź ograniczenia dla narzędzia generatywnej AI:**
+    - Sprecyzuj, czego narzędzie **nie powinno** robić lub jakie aspekty ma pominąć.
+    - Ograniczenia pomagają skupić AI na kluczowych elementach.
 
-- **Wprowadź ograniczenia** dla narzędzia AI, aby zawęzić zakres odpowiedzi.
-- **Ponownie przeanalizuj schemat** 5-etapowy, aby upewnić się, że każdy krok został uwzględniony.
-- **Podziel swoje prompty na mniejsze części**, jeśli są zbyt złożone.
-- **Zmień sposób formułowania** podpowiedzi, użyj synonimów, innej struktury zdań.
-- Jeśli problem nadal występuje, **przejdź do podobnego zadania** lub uprość obecne.
+- **Ponownie przeanalizuj 5-etapowy schemat:**
+    - Powróć do 5-etapowego schematu i upewnij się, że wszystkie etapy zostały dokładnie przemyślane i zastosowane.
+    - Rozważ, czy można doprecyzować zadanie, kontekst, przykłady, ocenę lub modyfikację.
 
-**W centrum diagramu znajduje się ikona żarówki** 💡, symbolizująca kreatywność i poszukiwanie nowych rozwiązań w procesie formułowania promptów.
+- **Podziel złożone prompty:**
+    - Jeśli **prompt** jest zbyt złożony, rozbij go na mniejsze, bardziej szczegółowe **prompty**.
+    - Mniejsze **prompty** ułatwiają AI zrozumienie poszczególnych aspektów zadania.
 
-## 2. Znaczenie Umiejętności AI w Przyszłości Pracy
+- **Eksperymentuj z formułowaniem:**
+    - Testuj różne sformułowania **promptu**.
+    - W przypadku trudności, spróbuj podobnego, prostszego zadania, aby lepiej zrozumieć możliwości narzędzia AI.
 
-Statystyki podkreślają rosnące znaczenie umiejętności związanych ze sztuczną inteligencją na rynku pracy:
+## Statystyki dotyczące wpływu AI na rynek pracy
 
-- **8 do 10 osób na świecie** uważa, że sztuczna inteligencja **zmieni większość zawodów lub branż** w ciągu najbliższych 5 lat.<sup>1</sup>
-- **82% liderów** uważa, że pracownicy **biegli w korzystaniu z AI powinni otrzymywać wyższe wynagrodzenie**.<sup>2</sup>
-- **74% liderów** uważa, że pracownicy **posiadający umiejętności w zakresie AI powinni otrzymywać awanse częściej**.<sup>2</sup>
+Poniższe statystyki podkreślają rosnące znaczenie umiejętności związanych z AI w kontekście zawodowym.
 
-Te dane wskazują, że **inwestycja w naukę efektywnego korzystania z AI jest kluczowa dla rozwoju kariery zawodowej**.
+- **8 na 10 osób na świecie** uważa, że sztuczna inteligencja znacząco zmieni większość zawodów lub branż w ciągu najbliższych 5 lat (źródło: Google, Ipsos).
+- **82% liderów** jest zdania, że pracownicy z biegłością w AI powinni otrzymywać **wyższe wynagrodzenie** (źródło: EdX).
+- **74% liderów** uważa, że pracownicy posiadający umiejętności w zakresie AI powinni być **częściej awansowani** (źródło: EdX).
 
-## 3. Multimodal Prompting - Łączenie Różnych Formatów
+Te dane wyraźnie wskazują na **wartość inwestycji w rozwój umiejętności związanych z AI** w kontekście rozwoju kariery.
 
-`Multimodal prompting` to technika, która polega na **łączeniu różnych typów formatów danych** w jednym prompcie, takich jak tekst, obraz i dźwięk. Pozwala to na bardziej bogatą i kompleksową interakcję z narzędziami AI.
+## Promptowanie multimodalne (`Multimodal prompting`)
 
-### 3.1. Tworzenie Promptów z Obrazami
+**Promptowanie multimodalne** to zaawansowana technika, która łączy różne typy danych wejściowych w jednym **prompcie**, umożliwiając bogatszą i bardziej wszechstronną interakcję z AI.
 
-- **Zrób zdjęcie** i użyj go jako części promptu.
-- **Zadaj pytania dotyczące treści obrazu**.
-- **Wprowadź ograniczenia**, aby skupić się na najważniejszych elementach obrazu.
-- *Przykład:* \"Co przedstawia to zdjęcie? Skoncentruj się na elementach architektonicznych i opisz styl budynku.\"
+- **Łącz różnorodne formaty:** Tekst, obraz i dźwięk mogą być używane jednocześnie w jednym **prompcie**.
 
-### 3.2. Tworzenie Promptów z Dźwiękami
+- **Twórz prompty z obrazami:**
+    - **Wykorzystaj zdjęcie** jako element **promptu**.
+    - **Zadawaj pytania** dotyczące treści obrazu.
+    - **Wprowadź ograniczenia**, aby skupić się na konkretnych elementach wizualnych.
 
-- **Nagraj głos lub muzykę** i użyj nagrania w prompcie.
-- **Poproś o opis nagrania**.
-- **Zadbaj o odpowiedni kontekst**, aby AI mogło jak najlepiej zrozumieć nagranie.
-- *Przykład:* \"Opisz nastrój tej muzyki. Czy jest radosna, smutna, czy może tajemnicza? Jaki instrument dominuje?\"
+- **Twórz prompty z dźwiękami:**
+    - **Użyj nagrania głosu lub muzyki** jako części **promptu**.
+    - **Poproś o opis** nagrania.
+    - **Zapewnij odpowiedni kontekst**, aby narzędzie AI mogło właściwie zinterpretować nagranie.
 
-### 3.3. Łączenie Różnych Formatów
+- **Integruj różne formaty:**
+    - **Udostępniaj przykłady** w formie tekstu, obrazu lub dźwięku.
+    - **Wyjaśnij istotność każdego formatu** dla uzyskania pożądanego rezultatu.
 
-- **Podziel się przykładami** w formie tekstu, obrazu lub dźwięku, aby ukierunkować wynik.
-- **Wyjaśnij, dlaczego każdy z formatów jest istotny** dla pożądanego rezultatu.
-- *Przykład:* \"Na podstawie tego zdjęcia [obraz] i opisu dźwięku [dźwięk], stwórz krótki opis miejsca, w którym mogło zostać zrobione zdjęcie i nagrany dźwięk.\"
+- **Pogłębiaj wiedzę multimodalnie:**
+    - **Łącz pisemne prompty z dźwiękiem lub obrazami**, aby lepiej zrozumieć odbierane informacje.
+    - Multimodalność naturalizuje i intuicyjnie wzbogaca interakcję z AI.
 
-### 3.4. Pogłębianie Wiedzy
+## Projektowanie eksperta AI
 
-- **Połącz pisemne prompty z dźwiękiem lub obrazami**, aby lepiej zrozumieć to, co widzisz lub słyszysz.
-- Multimodalność może pomóc w **bardziej wszechstronnym poznawaniu świata** za pomocą AI.
+Możesz zaprojektować eksperta AI, definiując jego cechy i rolę, aby uzyskać spersonalizowane wsparcie i pomoc.
 
-## 4. Zaprojektuj Eksperta AI - Personalizacja Interakcji
+- **Zdefiniuj personę eksperta AI:**
+    - Określ, kim ma być ekspert AI (np. mentor, doradca, specjalista w danej dziedzinie).
+    - Persona eksperta wpływa na styl komunikacji i rodzaj odpowiedzi.
 
-Ta technika pozwala na stworzenie **spersonalizowanego eksperta AI**, który może wspierać rozwój umiejętności, współpracę przy projektach, udzielać feedbacku i wiele więcej.
+- **Określ kontekst sytuacyjny i szczegóły konwersacji:**
+    - Opisz sytuację, w której potrzebujesz wsparcia eksperta AI.
+    - Zdefiniuj cel rozmowy i oczekiwany rezultat.
 
-- **Określ personę**, którą ma przyjąć narzędzie generatywnej AI (np. mentor, coach, ekspert branżowy).
-- **Podaj kontekst sytuacyjny** oraz **szczegóły rozwoju konwersacji** (np. temat rozmowy, cel).
-- **Sprecyzuj typ rozmowy** oraz **rodzaje interakcji**, które ma wspierać AI (np. burza mózgów, rozwiązywanie problemów, nauka).
-- **Określ słowo-klucz**, którego można użyć, aby **zakończyć rozmowę** (np. \"koniec sesji\", \"dziękuję\").
-- **Poproś narzędzie o kluczowe wnioski z rozmowy** oraz o **wskazówki dotyczące obszarów wymagających poprawy**.
+- **Sprecyzuj typ rozmowy i interakcji:**
+    - Czy ma to być sesja pytań i odpowiedzi, współpraca projektowa, czy feedback?
+    - Określ rodzaj interakcji, aby AI mogła dostosować swoje zachowanie.
 
-## 5. Prompt Chaining - Realizacja Zadań Wieloetapowych
+- **Ustal słowo-klucz do zakończenia rozmowy:**
+    - Zdefiniuj komendę lub słowo-klucz, które pozwoli na kontrolowane zakończenie interakcji z ekspertem AI.
 
-`Prompt chaining` to technika polegająca na **wykorzystaniu wyniku jednego promptu jako kontekstu w kolejnym prompcie**. Umożliwia to realizację bardziej złożonych i wieloetapowych zadań.
+- **Poproś o kluczowe wnioski i wskazówki:**
+    - Na zakończenie rozmowy, poproś eksperta AI o podsumowanie i wskazówki dotyczące dalszego rozwoju.
+    - To umożliwia refleksję i dalsze doskonalenie.
 
-- **Poproś narzędzie generatywnej AI o wyjaśnienie, jak doszło do danego wyniku**.
-    - Można użyć metody **\"chain of thought\"**, aby AI wyjaśniło swoje rozumowanie krok po kroku.
-- **Porównuj jednocześnie wyniki**:
-    - Poproś AI o przedstawienie **różnych opcji**, które rozważa podczas generowania wyniku.
-    - Można użyć schematu rozumowania opartego na **drzewie decyzyjnym**, aby zobaczyć proces myślowy AI.
+## Realizacja zadań wieloetapowych poprzez łączenie promptów (`Prompt chaining`)
 
-## 6. Zasady Odpowiedzialnego Korzystania z AI
+`Prompt chaining` to technika umożliwiająca realizację złożonych zadań poprzez sekwencję połączonych **promptów**, gdzie wynik jednego **promptu** staje się kontekstem dla kolejnego.
 
-Korzystanie z AI powinno być **odpowiedzialne i etyczne**. Należy wziąć pod uwagę następujące zasady:
+- **Wykorzystaj wynik promptu jako kontekst:**
+    - Stwórz ciąg **promptów**, w którym odpowiedź z poprzedniego jest wejściem dla następnego.
+    - Umożliwia to budowanie bardziej złożonych i rozbudowanych interakcji z AI.
 
-- **Weź pod uwagę skutki korzystania ze sztucznej inteligencji** w swojej sytuacji (potencjalne ryzyko, wpływ na innych).
-- **Zdobądź zgodę na korzystanie z narzędzia generatywnej AI** od osób decyzyjnych w Twojej organizacji, zanim zaczniesz go używać przy projektach lub w pracy z klientami.
-- **Rozważ kwestie prywatności i bezpieczeństwa** związane z narzędziem AI, z którego korzystasz (ochrona danych, poufność informacji).
-- **Oceń cały materiał** wygenerowany przez AI **przed jego wykorzystaniem** w swojej pracy lub udostępnieniem go innym (sprawdzenie faktów, unikanie plagiatu).
-- **Poinformuj swoich współpracowników i klientów o korzystaniu z narzędzi generatywnej AI** oraz **mów otwarcie o tym, do czego ci służą** (transparentność i uczciwość).
+- **Poproś AI o wyjaśnienie procesu rozumowania:**
+    - Wykorzystaj metodę `chain of thought`, aby poprosić AI o wyjaśnienie swojego procesu myślowego.
+    - Pomaga to zrozumieć, jak AI doszła do danej odpowiedzi i zidentyfikować potencjalne niejasności.
 
-## 7. Google Career Certificates
+- **Porównuj wyniki równolegle:**
+    - Poproś AI o przedstawienie różnych opcji rozważanych podczas generowania wyniku.
+    - Użyj schematu rozumowania opartego na drzewie decyzyjnym, aby zobaczyć różne ścieżki rozumowania AI.
+    - Pozwala to na porównanie różnych podejść i wybór optymalnego rozwiązania.
 
-Materiał jest powiązany z programem **Google Career Certificates**, co sugeruje jego edukacyjny i praktyczny charakter w kontekście rozwoju zawodowego.
+## Zasady odpowiedzialnego korzystania z AI
+
+Odpowiedzialne korzystanie z AI jest kluczowe dla minimalizacji potencjalnych negatywnych skutków i maksymalizacji korzyści.
+
+- **Rozważ konsekwencje użycia AI:**
+    - Zastanów się nad potencjalnymi skutkami korzystania z AI w danej sytuacji.
+    - Uwzględnij etyczne i społeczne aspekty.
+
+- **Uzyskaj zgodę na korzystanie z AI:**
+    - Upewnij się, że posiadasz odpowiednie pozwolenia na korzystanie z narzędzi AI w organizacji.
+    - Przestrzegaj polityk i regulaminów dotyczących używania AI.
+
+- **Chroń prywatność i bezpieczeństwo danych:**
+    - Zwróć szczególną uwagę na ochronę danych osobowych i poufnych informacji.
+    - Upewnij się, że narzędzie AI jest bezpieczne i zgodne z przepisami o ochronie danych.
+
+- **Weryfikuj materiały przed użyciem:**
+    - Dokładnie sprawdź i zweryfikuj odpowiedzi generowane przez AI przed ich wykorzystaniem.
+    - Upewnij się, że informacje są dokładne, rzetelne i wolne od błędów.
+
+- **Bądź transparentny w korzystaniu z AI:**
+    - Informuj współpracowników i klientów o wykorzystaniu narzędzi generatywnej AI.
+    - Otwarcie komunikuj, w jakim celu korzystasz z AI.
+    - Buduj zaufanie poprzez transparentność.
+
+## Google Career Certificates
+
+Materiał wspomina o **Google Career Certificates**, co sugeruje, że umiejętności związane z **promptowaniem** i AI są cenione i rozwijane w ramach programów certyfikacyjnych Google.
+
+## Źródła
+
+Podane źródła potwierdzają wiarygodność statystyk i informacji przedstawionych w materiale.
+
+1. Google, Ipsos. *Our life with AI: The reality of today and the promise of tomorrow*. Google and Ipsos, styczeń 2024. (Ankieta przeprowadzona w 17 krajach.)
+2. EdX. *Navigating the Workplace in the Age of AI*. EdX, 2023.
 
 ## Podsumowanie
 
-Materiał \"Google Prompting Essentials\" przedstawia **kompleksowy przewodnik po tworzeniu efektywnych promptów dla generatywnej AI**. Kluczowe elementy to:
-
-- **5-etapowy schemat formułowania promptu** (`Zadanie`, `Kontekst`, `Przykład`, `Ocena`, `Modyfikacja`).
-- **Iteracyjny proces poprawiania promptów**.
-- **Znaczenie umiejętności AI na rynku pracy**.
-- `Multimodal prompting` - wykorzystanie różnych formatów danych.
-- **Projektowanie spersonalizowanych ekspertów AI**.
-- `Prompt chaining` - realizacja zadań wieloetapowych.
-- **Zasady odpowiedzialnego korzystania z AI**.
-
-Zrozumienie i zastosowanie tych zasad i technik pozwoli użytkownikom **maksymalnie wykorzystać potencjał narzędzi generatywnej AI** w różnych dziedzinach życia zawodowego i osobistego.
-
-**Źródła:**
-
-1. Google, Ipsos. *Our life with AI: The reality of today and the promise of tomorrow*. Google and Ipsos, January 2024.
-2. EdX. *Navigating the Workplace in the Age of AI*. EdX, 2023.
+Ten dokument przedstawia kluczowe aspekty efektywnego formułowania **promptów** dla narzędzi generatywnej AI. Podkreśla znaczenie 5-etapowego schematu, iteracyjnego doskonalenia **promptów**, multimodalności, projektowania ekspertów AI, łączenia **promptów** oraz odpowiedzialnego korzystania z AI. Umiejętności te zyskują na znaczeniu na rynku pracy, co potwierdzają przedstawione statystyki. Zrozumienie i zastosowanie tych zasad pozwala na pełne wykorzystanie potencjału generatywnej AI i osiągnięcie satysfakcjonujących rezultatów.
 
 
 ___
@@ -228,54 +292,53 @@ Poznaj 5-etapowy schemat formułowania promptu i zacznij korzystać ze sztucznej
 
 **Modyfikacja:** Jeśli odpowiedź nie jest pomocna, doprecyzuj swoje potrzeby i wprowadzaj poprawki tak długo, aż rezultat będzie satysfakcjonujący.
 
-**W razie wątpliwości - poprawiaj i próbuj dalej**
 
-Diagram przedstawia cykl działań:
+**W razie wątpliwości — poprawiaj i próbuj dalej**
 
-* Wprowadź ograniczenia dla narzędzia generatywnej AI.
-* Ponownie przeanalizuj schemat powyżej.
-* Podziel swoje prompty na mniejsze części.
-* Zmień sposób, w jaki formułujesz swoje podpowiedzi lub przejdź do podobnego zadania.
-* Diagram pokazuje strzałki wskazujące na kolejne kroki, a w centrum znajduje się ikona żarówki.
+Diagram przedstawia cykl iteracyjny z czterema krokami do poprawy promptów:
 
-**8 do 10** osób na świecie uważa, że sztuczna inteligencja zmieni większość zawodów lub branż w ciągu najbliższych 5 lat.<sup>1</sup>
+1. Wprowadź ograniczenia dla narzędzia generatywnej AI.
+2. Ponownie przeanalizuj schemat powyżej (5-etapowy schemat).
+3. Podziel swoje prompty na mniejsze części.
+4. Zmień sposób, w jaki formułujesz swoje podpowiedzi lub przejdź do podobnego zadania.
 
-**82%** liderów uważa, że pracownicy biegli w korzystaniu z AI powinni dostawać wyższe wynagrodzenie.<sup>2</sup>
 
-**74%** liderów uważa, że pracownicy posiadający umiejętności w zakresie AI powinni otrzymywać awanse częściej.<sup>2</sup>
+**8 do 10** osób na świecie uważa, że sztuczna inteligencja zmieni większość zawodów lub branż w ciągu najbliższych 5 lat.
+
+**82%** liderów uważa, że pracownicy biegli w korzystaniu z AI powinni dostawać wyższe wynagrodzenie.
+
+**74%** liderów uważa, że pracownicy posiadający umiejętności w zakresie AI powinni otrzymywać awanse częściej.
 
 
 **Multimodal prompting**
 
-Połącz różne typy formatów, takie jak tekst, obraz i dźwięk, w jednym promptcie.
+Połącz różne typy formatów, takie jak tekst, obraz i dźwięk, w jednym prompcie.
 
 **Twórz prompty z obrazami:** Zrób zdjęcie i zadaj pytania dotyczące jego treści. Wprowadź ograniczenia, aby skupić się na najważniejszych elementach obrazu.
 
 **Twórz podpowiedzi z dźwiękami:** Nagraj głos lub muzykę i poproś o ich opis. Zadbaj o odpowiedni kontekst, aby nagranie zostało jak najlepiej zrozumiane przez narzędzie generatywnej AI.
 
-**Łącz różne formaty:** Podziel się przykładami w formie tekstu, obrazu lub dźwięku, które pomogą ukierunkować wynik i wyjaśnij, dlaczego każdy z nich jest istotny.
+**Łącz różne formaty:** Podziel się przykładami w formie tekstu, obrazu lub dźwięku, które pomogą ukierunkować wynik, i wyjaśnij, dlaczego każdy z nich jest istotny.
 
 **Pogłębiaj swoją wiedzę:** Połącz pisemne prompty z dźwiękiem lub obrazami, aby lepiej zrozumieć to, co widzisz lub słyszysz.
+
 
 
 **Zaprojektuj eksperta AI**
 
 Stwórz eksperta AI, który pomoże tobie rozwijać umiejętności, współpracować przy projekcie, otrzymywać feedback i wiele więcej.
 
+
 **Określ personę, którą ma przyjąć narzędzie generatywnej AI.**
-
 **Podaj kontekst sytuacyjny oraz szczegóły rozwoju konwersacji.**
-
 **Sprecyzuj typ rozmowy oraz rodzaje interakcji, które ma wspierać narzędzie generatywnej AI.**
-
 **Określ słowo-klucz, którego możesz użyć, aby zakończyć rozmowę.**
-
 **Poproś narzędzie o kluczowe wnioski z rozmowy oraz o wskazówki dotyczące obszarów wymagających poprawy.**
 
 
 **Zrealizuj zadania wieloetapowe, tworząc ciąg promptów poprzez prompt chaining**
 
-Wykorzystaj wynik jednego promptu jako kontekst w kolejnym promptcie.
+Wykorzystaj wynik jednego promptu jako kontekst w kolejnym prompcie.
 
 **Poproś narzędzie generatywnej AI o wyjaśnienie, jak doszło do danego wyniku.** Potrzebujesz pomocy przy rozwiązywaniu problemu? Poproś narzędzie AI, aby wyjaśniło swoje rozumowanie za pomocą metody *chain of thought*.
 
@@ -285,10 +348,11 @@ Wykorzystaj wynik jednego promptu jako kontekst w kolejnym promptcie.
 **Zasady odpowiedzialnego korzystania z AI**
 
 * Weź pod uwagę skutki korzystania ze sztucznej inteligencji w swojej sytuacji.
-* Zdobądź zgodę na korzystanie z narzędzia generatywnej AI od osób decyzyjnych w twojej organizacji, zanim zaczniesz go używać przy projektach lub w pracy z klientami.
+* Zdobądź zgodę na korzystanie z narzędzia generatywnej AI od osób decyzyjnych w twojej organizacji zanim zaczniesz go używać przy projektach lub w pracy z klientami.
 * Rozważ kwestie prywatności i bezpieczeństwa związane z narzędziem AI, z którego korzystasz.
 * Oceń cały materiał przed jego wykorzystaniem w swojej pracy lub udostępnieniem go innym.
 * Poinformuj swoich współpracowników i klientów o korzystaniu z narzędzi generatywnej AI oraz mów otwarcie o tym, do czego ci służą.
+
 
 **Google Career Certificates**
 
@@ -296,3 +360,8 @@ Wykorzystaj wynik jednego promptu jako kontekst w kolejnym promptcie.
 
 1. Jak wynika z ankiety przeprowadzonej w 17 krajach. Google, Ipsos. *Our life with AI: The reality of today and the promise of tomorrow*. Google and Ipsos, January 2024.
 2. EdX. *Navigating the Workplace in the Age of AI*. EdX, 2023.
+
+
+___
+# 🏷️ Tags
+#google_prompting_essentials #prompt #generatywna_AI #sztuczna_inteligencja #AI #formułowanie_promptów #persona #format_odpowiedzi #kontekst #przykłady #ocena #modyfikacja #iteracyjne_poprawianie_promptów #ograniczenia_AI #dzielenie_promptów #eksperymentowanie_z_promptami #rynek_pracy #umiejętności_AI #wynagrodzenie #awans #wartość_inwestycji_w_AI #promptowanie_multimodalne #multimodal_prompting #tekst #obraz #dźwięk #prompty_z_obrazami #prompty_z_dźwiękami #integracja_formatów #wiedza_multimodalna #projektowanie_eksperta_AI #kontekst_sytuacyjny #szczegóły_konwersacji #typ_rozmowy #interakcja #słowo_klucz #wnioski #wskazówki #prompt_chaining #wynik_promptu_jako_kontekst #wyjaśnienie_procesu_rozumowania #chain_of_thought #porównywanie_wyników #drzewo_decyzyjne #odpowiedzialne_korzystanie_z_AI #konsekwencje_użycia_AI #zgoda_na_korzystanie_z_AI #prywatność #bezpieczeństwo_danych #weryfikacja_materiałów #transparentność #google_career_certificates #źródła #ipsos #edx #5-etapowy_schemat_promptu
