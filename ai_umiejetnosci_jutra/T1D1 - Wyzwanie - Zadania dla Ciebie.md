@@ -3,42 +3,57 @@
 # 💡 Diagram
 
 ```mermaid
-graph TD
-    A[AI Gemini Task Optimization] --> B[Identify Tasks]
-    A --> C[Choose Three Tasks]
-    A --> D[Use Gemini Help]
-    A --> E[Document Process]
-    A --> F[Summarize Share]
-
-    B --> B1[Daily Weekly Tasks]
-    B --> B2[Regular Activities]
-    B --> B3[Example]
-    B3 --> B3a[Data Analysis]
-    B3 --> B3b[Email Editing]
-    B3 --> B3c[Report Summing]
-    B3 --> B3d[Task Lists]
-
-    C --> C1[Different Tasks]
-    C --> C2[Optimize with AI]
-    C --> C3[Represent Areas]
-    C3 --> C3a[Learn Understand]
-    C3 --> C3b[Analyzing]
-    C3 --> C3c[Create Invent]
-
-    D --> D1[Simple Prompts]
-    D --> D2[Gradually Expand Prompts]
-    D --> D3[Gemini Use]
-    D3 --> D3a[Summarize Analyze]
-    D3 --> D3b[Formulas Data]
-    D3 --> D3c[Edit Communicate]
-    D3 --> D3d[Organize Plan]
-
-    E --> E1[Record Prompts]
-    E --> E2[Record Gemini Responses]
-    E --> E3[Reflect on Process]
-
-    F --> F1[Share Experiences]
-    F --> F2[Learned AI Prod]
+mindmap
+  root((Zadanie Praktyczne Gemini))
+    Wprowadzenie do Zadania
+      Cel Zadania
+        Utrwalenie wiedzy
+        Praktyczne wykorzystanie
+      Narzędzie
+        Gemini
+    Wyzwanie Pierwsze Identyfikacja Zadan
+      Krok 1 Zidentyfikuj zadania
+        Codzienne lub Tygodniowe
+        Przykłady zadan
+          Analiza danych
+          Redagowanie emaili
+          Podsumowanie raportow
+          Zarzadzanie listami zadan
+      Krok 2 Wybierz trzy zadania
+        Roznorodne
+        Obszary zadan
+          Uczenie sie i rozumienie
+          Analizowanie
+          Tworzenie i wymyslanie
+      Krok 3 Wykorzystaj Gemini
+        Proste prompty
+        Stopniowe rozwijanie
+      Krok 4 Sposoby wykorzystania Gemini
+        Podsumowanie i analiza
+        Formuly i dane
+        Redagowanie i komunikacja
+        Organizacja i planowanie
+      Krok 5 Udokumentuj proces
+        Prompty i odpowiedzi
+        Skup sie na procesie
+      Krok 6 Podsumuj i podziel sie
+        Doswiadczenia
+        Produktywnosc AI
+    Podsumowanie Zadania Praktycznego
+      Cel
+        Optymalizacja zadan
+        Gemini
+      Kluczowe kroki
+        Identyfikacja
+        Wybór
+        Wykorzystanie Gemini
+        Dokumentowanie
+        Podsumowanie
+      Wazne aspekty
+        Eksperymentowanie promptami
+        Proces uczenia sie
+        Mozliwosci Gemini
+        Zwiekszenie produktywnosci
 ```
 
 ___
@@ -46,65 +61,63 @@ ___
 # 🗒️ Notatka
 
 
-# Zadanie Praktyczne: Wykorzystanie AI Gemini do Optymalizacji Zadań
+# Notatki i Podsumowanie do Zadania Praktycznego z Kursu
 
-## Wprowadzenie
+Niniejszy dokument zawiera szczegółowe notatki i podsumowanie zadania praktycznego przedstawionego w transkrypcji. Zadanie ma na celu utrwalenie wiedzy z kursu poprzez samodzielne ćwiczenie kluczowych zagadnień związanych z generatywną sztuczną inteligencją, konkretnie z narzędziem **Gemini**.
 
-To praktyczne zadanie ma na celu utrwalenie wiedzy z kursu i nauczenie Cię, jak stosować AI Gemini do optymalizacji zadań. Wykonaj poniższe kroki, aby zdobyć cenne doświadczenie.
+## Wprowadzenie do Zadania Praktycznego
 
-## Pierwsze Wyzwanie: Identyfikacja Zadań
+Zadanie praktyczne zostało przygotowane, aby umożliwić uczestnikom kursu samodzielne przećwiczenie kluczowych zagadnień. Jego realizacja krok po kroku ma na celu utrwalenie wiedzy teoretycznej oraz nauczenie praktycznego wykorzystania zdobytych umiejętności.
 
-### Krok 1: Określ Swoje Zadania
+## Wyzwanie Pierwsze: Identyfikacja Zadań
 
-*   Zastanów się nad swoimi **codziennymi lub tygodniowymi zadaniami**.
-*   Jakie czynności wykonujesz **regularnie**?
-*   Przykładowe zadania:
-    *   Analiza danych w arkuszach kalkulacyjnych
-    *   Edycja e-maili
-    *   Sumowanie raportów
-    *   Zarządzanie listami zadań
+### Krok 1: Zidentyfikuj swoje zadania
 
-### Krok 2: Wybierz Trzy Zadania
+- **Zastanów się nad swoimi codziennymi lub tygodniowymi zadaniami.**
+- Jakie czynności wykonujesz regularnie?
+- Przykładowe zadania:
+    - Analiza danych w arkuszach kalkulacyjnych
+    - Redagowanie e-maili
+    - Podsumowywanie raportów
+    - Zarządzanie listami zadań
 
-*   Wybierz **trzy różne zadania**, które chcesz zoptymalizować za pomocą generatywnej sztucznej inteligencji.
-*   Idealnie, zadania powinny reprezentować **co najmniej dwa z trzech obszarów**:
-    *   **Uczenie się i rozumienie**
-    *   **Analizowanie**
-    *   **Tworzenie i wymyślanie**
+### Krok 2: Wybierz trzy zadania
 
-### Krok 3: Wykorzystaj Gemini do Pomocy
+- **Wybierz trzy różnorodne zadania**, które chciałbyś zoptymalizować za pomocą generatywnej sztucznej inteligencji.
+- **Idealnym wyborem będą zadania** z co najmniej dwóch z trzech obszarów:
+    - **Uczenie się i rozumienie**
+    - **Analizowanie**
+    - **Tworzenie i wymyślanie**
 
-*   Dla każdego z **trzech wybranych zadań**, użyj **Gemini** jako narzędzia wspomagającego.
-*   Zastosuj wskazówki z materiałów szkoleniowych:
-    *   Zacznij od **prostych promptów**.
-    *   **Stopniowo rozwijaj i doprecyzowuj** prompty.
-*   **Przykładowe sposoby wykorzystania Gemini**:
-    *   **Sumowanie i analiza**
-    *   **Formuły i dane**
-    *   **Edycja i komunikacja**
-    *   **Organizacja i planowanie**
+### Krok 3: Wykorzystaj **Gemini** do pomocy
 
-### Krok 4: Dokumentuj Proces
+- **Wykorzystaj narzędzie Gemini** w każdym z trzech wybranych zadań.
+- **Postępuj zgodnie z zaleceniami z materiałów szkoleniowych:**
+    - Zacznij od **prostych promptów**.
+    - **Stopniowo rozwijaj** prompty.
 
-*   **Zapisuj używane prompty**.
-*   **Zapisuj odpowiedzi otrzymane od Gemini**.
-*   Skoncentruj się na **refleksji nad procesem**, a nie tylko na wynikach. Jest to kluczowe dla nauki i zrozumienia potencjału narzędzia.
+### Krok 4: Sposoby wykorzystania **Gemini**
 
-### Krok 5: Podsumuj i Podziel się Doświadczeniami
+- **Przykładowe zastosowania Gemini:**
+    - **Podsumowanie i analiza**
+    - **Formuły i dane** (arkusze kalkulacyjne)
+    - **Redagowanie i komunikacja** (np. e-maile)
+    - **Organizacja i planowanie**
 
-*   Przygotuj się do **podzielenia się swoimi wnioskami**.
-*   Zastanów się, czego nauczyłeś się o **wykorzystaniu narzędzi AI do zwiększenia produktywności**.
+### Krok 5: Udokumentuj proces
 
-## Podsumowanie
+- **Zapisuj używane prompty oraz odpowiedzi** uzyskane od **Gemini**.
+- **Skup się na procesie, a nie tylko na wynikach.**
+- Refleksja nad przebiegiem pracy jest kluczowa dla procesu uczenia się.
 
-Zadanie polega na praktycznym zastosowaniu AI Gemini do optymalizacji codziennych zadań.  Twoim celem jest:
+### Krok 6: Podsumuj i podziel się doświadczeniami
 
-*   Identyfikacja trzech zadań z różnych obszarów (**uczenie się**, **analiza**, **tworzenie**).
-*   Wykorzystanie Gemini do usprawnienia tych zadań.
-*   Dokumentowanie procesu interakcji z AI (prompty i odpowiedzi).
-*   Podsumowanie doświadczeń i wniosków dotyczących wpływu AI na produktywność.
+- **Przygotuj się do podzielenia się swoimi doświadczeniami.**
+- **Zastanów się, czego nauczyłeś się** o wykorzystaniu narzędzi AI do zwiększenia produktywności.
 
-Pamiętaj o iteracyjnym podejściu do promptów – zacznij od prostych i stopniowo je rozwijaj. Kluczowa jest refleksja nad całym procesem, a nie tylko końcowymi rezultatami. Celem tego zadania jest praktyczne zrozumienie potencjału AI we wspieraniu i ulepszaniu codziennych zadań.
+## Podsumowanie Zadania Praktycznego
+
+Zadanie praktyczne polega na wykorzystaniu narzędzia **Gemini** do optymalizacji trzech wybranych zadań z życia codziennego lub zawodowego. Kluczowe kroki obejmują: identyfikację zadań, wybór trzech z nich z różnych obszarów (uczenie się, analiza, tworzenie), użycie **Gemini** do wsparcia ich realizacji, dokumentowanie procesu poprzez zapisywanie promptów i odpowiedzi, a na koniec – podsumowanie i dzielenie się zdobytymi doświadczeniami. Ważne jest eksperymentowanie z różnymi promptami, rozpoczynając od prostych i stopniowo je rozbudowując. Należy skupić się na procesie uczenia się i zrozumieniu możliwości narzędzia **Gemini**, a nie tylko na osiągnięciu konkretnych rezultatów.  Celem zadania jest praktyczne zastosowanie wiedzy z kursu oraz zrozumienie, w jaki sposób AI może zwiększyć produktywność w różnych dziedzinach.
 
 
 ___
@@ -113,29 +126,34 @@ ___
 File: Wyzwanie - Zadania dla Ciebie.png<br>
 **Zadanie dla Ciebie**
 
-Below you will find a practical task prepared especially for you. Its purpose is to enable you to independently practice the key concepts discussed in the course. Thanks to this, you will not only consolidate the acquired knowledge, but also learn how to use it in practice. Follow the steps below to gain valuable experience.
+Poniżej znajdziesz przygotowane specjalnie dla Ciebie zadanie praktyczne. Jego celem jest umożliwienie Ci samodzielnego przećwiczenia kluczowych zagadnień omawianych w kursie. Dzięki temu nie tylko utrwalisz zdobytą wiedzę, ale także nauczysz się wykorzystywać ją w praktyce. Wykonaj krok po kroku poniższe wskazówki, aby zdobyć cenne doświadczenie.
 
-**First Challenge: Identify Your Tasks**
+**Wyzwanie pierwsze: Zidentyfikuj swoje zadania**
 
-* **Identify your tasks:**
-Think about your daily or weekly tasks. What activities do you perform regularly? These could be tasks such as data analysis in spreadsheets, editing emails, summarizing reports, or managing task lists.
+* **Zidentyfikuj swoje zadania:**
+Zastanów się nad swoimi codziennymi lub tygodniowymi zadaniami. Jakie czynności regularnie wykonujesz? Mogą to być zadania takie jak analiza danych w arkuszach kalkulacyjnych, redagowanie e-maili, podsumowywanie raportów lub zarządzanie listami zadań.
 
-* **Choose three tasks:**
-Choose three different tasks that you would like to optimize using generative artificial intelligence. Ideally, choose tasks from at least two of the three areas: learning and understanding, analyzing, creating and inventing.
 
-* **Use Gemini to help:**
-For each of the three selected tasks, use Gemini to help you. Try to follow the advice from the training materials: start with simple prompts and then gradually expand them.
+* **Wybierz trzy zadania:**
+Wybierz trzy różne zadania, które chciałbyś zoptymalizować za pomocą generatywnej sztucznej inteligencji. Idealnie, wybierz zadania z co najmniej dwóch z trzech obszarów: uczenie się i rozumienie, analizowanie, tworzenie i wymyślanie.
 
-Here are some ways you can use Gemini:
-Summarization and analysis, formulas and data, editing and communication, organization and planning.
 
-* **Document the process:**
-Record the prompts you use and the responses you receive from Gemini. It is important to reflect on the process, not just the results.
+* **Wykorzystaj Gemini do pomocy:**
+W przypadku każdego z trzech wybranych zadań, użyj Gemini, aby Ci pomógł. Staraj się postępować zgodnie z radami z materiałów szkoleniowych: zacznij od prostych promptów, a następnie stopniowo je rozbudowuj.
 
-* **Summarize and share your experiences:**
-Prepare to share your experiences. What have you learned about using AI tools to increase productivity?
+
+* **Oto kilka sposobów, w jakie możesz wykorzystać Gemini:**
+Podsumowanie i analiza, formuły i dane, redagowanie i komunikacja, organizacja i planowanie.
+
+
+* **Udokumentuj proces:**
+Zapisuj używane prompty i odpowiedzi, które otrzymujesz od Gemini. Ważne jest, aby zastanowić się nad procesem, a nie tylko nad wynikami.
+
+
+* **Podsumuj i podziel się doświadczeniami:**
+Przygotuj się na podzielenie się swoimi doświadczeniami. Czego nauczyłeś się o wykorzystaniu narzędzi AI w celu zwiększenia produktywności?
 
 
 ___
 # 🏷️ Tags
-#AI_Gemini #optymalizacja_zadań #zadania_codzienne #zadania_tygodniowe #analiza_danych #arkusze_kalkulacyjne #edycja_e-maili #sumowanie_raportów #zarządzanie_listami_zadań #generatywna_sztuczna_inteligencja #uczenie_się #rozumienie #analizowanie #tworzenie #wymyślanie #prompty #dokumentowanie_procesu #produktywność #wnioski #doświadczenia #narzędzia_AI #usprawnienie_zadań #interakcja_z_AI #refleksja #rezultaty #potencjał_AI #wskazówki #materiały_szkoleniowe #proste_prompty #rozwijanie_promptów #sumowanie #formuły #dane #komunikacja #organizacja #planowanie
+#zadanie_praktyczne #kurs #generatywna_sztuczna_inteligencja #Gemini #optymalizacja_zadań #identyfikacja_zadań #codzienne_zadania #tygodniowe_zadania #analiza_danych #arkusze_kalkulacyjne #redagowanie_e-maili #podsumowywanie_raportów #zarządzanie_listami_zadań #trzy_zadania #różnorodne_zadania #uczenie_się_i_rozumienie #analizowanie #tworzenie_i_wymyślanie #prompt #proste_prompty #rozwijanie_promptów #podsumowanie_i_analiza #formuły_i_dane #redagowanie_i_komunikacja #organizacja_i_planowanie #dokumentowanie_procesu #dzielenie_się_doświadczeniami #produktywność #narzędzia_AI
