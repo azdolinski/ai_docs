@@ -4,61 +4,74 @@
 
 ```mermaid
 mindmap
-  root((Podsumowanie Kursu Prompt Engineeringu))
-    Kluczowe Koncepcje
-      GenAI (Generative AI)
-        Generuje treści (tekst, obrazy)
+  root((Podstawy Promptowania))
+    Wprowadzenie do GenAI i LLM
+      GenAI Generative AI
+        Generowanie tresci
         Wykorzystuje LLM
-      LLM (Large Language Models)
-        Trenowane na dużych zbiorach danych tekstowych
-        Rozumie język naturalny
-        Odpowiada na zapytania
-      Prompt Engineering
-        Projektowanie efektywnych promptów
-        Uzyskanie oczekiwanych wyników z LLM
-    Podejście Pięcioetapowe
-      Zadanie (Task)
-        Określenie celu promptu
-      Kontekst (Context)
-        Dostarczenie informacji kontekstowych
-      Odniesienie (Reference)
-        Wykorzystanie przykładów/wzorców
-      Ocena (Evaluation)
-        Weryfikacja wyników
-      Iteracja (Iteration)
+      LLM Large Language Models
+        Modele jezykowe
+        Rozumienie jezyka naturalnego
+        Generowanie tekstu
+        Tlumaczenie jezykow
+    Inzynieria Promptow
+      Projektowanie promptow
+      Skuteczne zapytania
+      Precyzyjne wyniki
+      Efektywne GenAI i LLM
+    Piecioetapowe Podejscie
+      Zadanie Task
+        Definicja celu
+      Kontekst Context
+        Dodatkowe informacje
+        Tlo tematyczne
+      Odniesienie Reference
+        Przykłady
+        Wzorce
+        Styl odpowiedzi
+      Ocena Evaluation
+        Analiza wynikow
+        Zgodnosc z oczekiwaniami
+      Iteracja Iteration
         Ulepszanie promptu
-    Podejście "Człowiek w Pętli"
-      Weryfikacja wyników AI
-      AI może generować niedokładne wyniki
-      Ludzka weryfikacja jest niezbędna
-    Metody Prompt Engineeringu
-      Zero-shot
-        Prompt bez przykładów
-        Bazowanie na ogólnej wiedzy
-      One-shot
-        Prompt z jednym przykładem
-        Demonstracja formatu odpowiedzi
-      Few-shot
-        Prompt z kilkoma przykładami
-        Ukierunkowanie modelu LLM
+        Powtarzanie procesu
+    Czlowiek w Petli Human-in-the-Loop
+      Weryfikacja wynikow
+        Niezbedna
+        Jakosc i poprawnosc
+      Nadzorowanie AI
+      Korygowanie AI
+    Metody Promptowania
+      Podejscie Zero-shot
+        Bez przykladow
+      Podejscie One-shot
+        Jeden przyklad
+      Podejscie Few-shot
+        Kilka przykladow
     Zaawansowane Techniki Promptowania
-      Prompt Chaining (Łączenie promptów)
-        Wyjście z promptu jako wejście do kolejnego
-        Rozwiązywanie złożonych zadań
-      Chain of Thought (Łańcuch myśli)
-        Prezentacja procesu myślowego krok po kroku
-        Logiczne i szczegółowe odpowiedzi
+      Lancuch Promptow Chain of Prompts
+        Sekwencja promptow
+        Zlozone zadania
+        Powiazane prompty
+      Lancuch Mysli Chain of Thought
+        Proces myslowy
+        Wyjasnienie krok po kroku
+        Rozumowanie
     Zastosowania GenAI i LLM
-      Sumowanie tekstów
-      Tłumaczenie języków
-      Generowanie pomysłów
-      Tworzenie obrazów
-      Generowanie formuł
+      Podsumowywanie tekstow
+      Tlumaczenie jezykow
+      Generowanie pomyslow Ideation
+      Tworzenie obrazow
+      Generowanie formul arkuszy
       Klasyfikowanie informacji
-    Rola Ludzi
-      Weryfikacja wyników AI
-      Tworzenie ulepszonych promptów
-      Podnoszenie jakości i dokładności odpowiedzi AI
+    Rola Czlowieka
+      Weryfikacja wynikow
+        Poprawnosc
+        Rzetelnosc
+        Zgodnosc
+      Tworzenie lepszych promptow
+        Iteracja
+        Skutecznosc
 ```
 
 ___
@@ -66,43 +79,65 @@ ___
 # 🗒️ Notatka
 
 
-# Podsumowanie Kursu
+# Podsumowanie Kursu: Podstawy Promptowania
 
-Poniżej znajdziesz kluczowe informacje i wskazówki z poszczególnych lekcji kursu. Zebraliśmy najważniejsze punkty, aby ułatwić Ci zrozumienie omawianych tematów i ich praktyczne zastosowanie. To podsumowanie pomoże Ci utrwalić główne zasady i sprawnie wdrożyć zdobytą wiedzę w Twoich projektach.
+Ten dokument zawiera szczegółowe notatki i podsumowanie kluczowych informacji z kursu "Podstawy Promptowania". Kurs koncentruje się na zrozumieniu **GenAI** i **LLM**, oraz na efektywnym tworzeniu `promptów`, aby osiągnąć pożądane rezultaty. Poniższe notatki pomogą Ci utrwalić wiedzę i zastosować ją w praktyce.
 
-## Kluczowe Punkty z Podstaw Promptowania
+## Kluczowe Aspekty Podstaw Promptowania
 
-* **GenAI** (Generative AI): to rodzaj sztucznej inteligencji, która, wykorzystując **LLM** (Large Language Models), generuje nowe treści, takie jak teksty i obrazy.
-* **LLM**:  modele językowe trenowane na ogromnych zbiorach danych tekstowych, umożliwiające rozumienie zapytań w języku naturalnym i odpowiadanie na nie.
-* **Prompt engineering**: proces projektowania efektywnych `promptów`, które pozwalają na uzyskanie oczekiwanych rezultatów z modeli LLM.
-* Kurs zaleca **pięcioetapowe podejście** do tworzenia skutecznych `promptów`:
-    - **Zadanie (task)**: Jasne określenie celu, który chcesz osiągnąć za pomocą `promptu`.
-    - **Kontekst (context)**: Dostarczenie modelowi LLM niezbędnych informacji kontekstowych.
-    - **Odniesienie (reference)**: Wykorzystanie przykładów lub wzorców w `prompcie`, aby ukierunkować odpowiedź.
-    - **Ocena (evaluation)**: Weryfikacja, czy uzyskany wynik spełnia oczekiwania.
-    - **Iteracja (iteration)**: Ulepszanie `promptu` na podstawie oceny uzyskanych wyników.
-* Podejście **"człowiek w pętli" (human-in-the-loop)**: kluczowe ze względu na możliwość generowania niedokładnych wyników przez AI. Weryfikacja przez człowieka jest niezbędna.
-* **Metody prompt engineeringu** obejmują podejścia:
-    - **Zero-shot**: `Prompt` bez przykładów; model LLM generuje odpowiedź bazując na ogólnej wiedzy.
-    - **One-shot**: `Prompt` z jednym przykładem, demonstrującym oczekiwany format odpowiedzi.
-    - **Few-shot**: `Prompt` z kilkoma przykładami,  lepiej ukierunkowującymi model LLM.
-* **Zaawansowane techniki promptowania**:
-    - **Prompt chaining (łączenie promptów)**: Wykorzystanie wyjścia z jednego `promptu` jako wejścia do kolejnego, co umożliwia rozwiązywanie bardziej złożonych zadań.
-    - **Chain of thought (łańcuch myśli)**:  `Promptowanie` modelu LLM do prezentowania procesu myślowego krok po kroku, w celu uzyskania bardziej logicznych i szczegółowych odpowiedzi.
-* **Zastosowania GenAI i LLM**:
-    - Sumowanie tekstów
-    - Tłumaczenie języków
-    - Generowanie pomysłów
-    - Tworzenie obrazów
-    - Generowanie formuł do arkuszy kalkulacyjnych
-    - Klasyfikowanie informacji
-* **Rola ludzi**:
-    - Weryfikacja wyników generowanych przez AI.
-    - Tworzenie ulepszonych `promptów`,  podnoszących jakość i dokładność odpowiedzi AI.
+### Wprowadzenie do GenAI i LLM
+
+* **GenAI (Generative AI)**: To rodzaj sztucznej inteligencji, który generuje nowe treści – teksty, obrazy, muzykę, kod i inne dane. **GenAI** wykorzystuje **LLM (Large Language Models)** do tworzenia tych treści.
+* **LLM (Large Language Models)**: To rozbudowane modele językowe, trenowane na ogromnych zbiorach danych tekstowych. Dzięki temu **LLM** rozumieją język naturalny i potrafią generować tekst, tłumaczyć języki oraz wykonywać inne zadania językowe, odpowiadając na zapytania w języku naturalnym.
+
+### Inżynieria Promptów
+
+* **Inżynieria promptów**: To proces projektowania skutecznych `promptów` (zapytań) dla **LLM**. Celem jest tworzenie `promptów`, które pozwolą uzyskać precyzyjne i pożądane wyniki z modeli językowych. Dobrze skonstruowany `prompt` jest kluczowy dla efektywnego wykorzystania **GenAI** i **LLM**.
+
+### Pięcioetapowe Podejście do Tworzenia Efektywnych Promptów
+
+Materiały kursu rekomendują pięcioetapowe podejście do tworzenia efektywnych `promptów`:
+
+1. **Zadanie (Task)**: Zdefiniuj jasno zadanie, które ma wykonać model językowy. Określ cel `promptu`.
+2. **Kontekst (Context)**: Dostarcz modelowi niezbędny kontekst, aby ułatwić mu zrozumienie zadania. Kontekst może obejmować dodatkowe informacje, tło tematyczne lub ograniczenia.
+3. **Odniesienie (Reference)**: Wprowadź przykłady, wzorce lub preferowany styl odpowiedzi. Jest to szczególnie przydatne w podejściach `one-shot` i `few-shot`.
+4. **Ocena (Evaluation)**: Przeanalizuj wyniki wygenerowane przez model. Sprawdź, czy odpowiedź jest zgodna z oczekiwaniami i czy realizuje cel zadania.
+5. **Iteracja (Iteration)**: Na podstawie oceny, ulepsz `prompt` i powtórz proces. Iteracja jest kluczowa dla optymalizacji `promptów` i uzyskiwania coraz lepszych wyników.
+
+### Człowiek w Pętli (Human-in-the-Loop)
+
+* **Podejście z człowiekiem w pętli**: Jest niezwykle istotne, ponieważ **GenAI** i **LLM**, pomimo zaawansowania, mogą generować wyniki nieprecyzyjne, nieprawdziwe lub niepożądane. **Weryfikacja wyników przez człowieka jest niezbędna**, aby zapewnić jakość i poprawność generowanych treści. Człowiek odgrywa kluczową rolę w nadzorowaniu i korygowaniu pracy **AI**.
+
+### Metody Tworzenia Promptów
+
+* **Podejście Zero-shot**: Model jest pytany o coś, czego nie widział wcześniej w kontekście treningowym. Oczekuje się poprawnej odpowiedzi bez przykładów.
+* **Podejście One-shot**: Dostarcza się jeden przykład zadania i oczekiwanej odpowiedzi, a następnie model jest proszony o wykonanie podobnego zadania.
+* **Podejście Few-shot**: Dostarcza się kilka przykładów zadania i oczekiwanych odpowiedzi, aby model lepiej zrozumiał wzorzec i generował bardziej precyzyjne wyniki.
+
+### Zaawansowane Techniki Promptowania
+
+* **Łańcuch Promptów (Chain of Prompts)**: Metoda polegająca na dzieleniu złożonego zadania na sekwencję mniejszych, powiązanych `promptów`. Wynik jednego `promptu` staje się kontekstem dla kolejnego, co umożliwia modelowi bardziej skomplikowane i logiczne rozumowanie.
+* **Łańcuch Myśli (Chain of Thought)**: Technika zachęcająca model do ujawnienia procesu myślowego prowadzącego do odpowiedzi. `Prompt` prosi model nie tylko o odpowiedź, ale także o krok po kroku wyjaśnienie, jak do niej doszedł. To poprawia jakość odpowiedzi w zadaniach wymagających rozumowania.
+
+### Zastosowania GenAI i LLM
+
+**GenAI** i **LLM** znajdują zastosowanie w wielu obszarach, w tym:
+
+* **Podsumowywanie tekstów**: Automatyczne generowanie skrótów i streszczeń długich tekstów.
+* **Tłumaczenie języków**: Przekład tekstu z jednego języka na drugi.
+* **Generowanie pomysłów (Ideation)**: Wspomaganie kreatywności poprzez generowanie nowych koncepcji i inspiracji.
+* **Tworzenie obrazów**: Generowanie grafik i ilustracji na podstawie opisów tekstowych.
+* **Generowanie formuł do arkuszy kalkulacyjnych**: Automatyczne tworzenie formuł w programach typu Excel lub Google Sheets.
+* **Klasyfikowanie informacji**: Automatyczne przypisywanie danych do odpowiednich kategorii.
+
+### Rola Człowieka w Kontekście GenAI i LLM
+
+* **Weryfikacja wyników**: Człowiek jest niezbędny do oceny i weryfikacji wyników generowanych przez **GenAI** i **LLM**, aby zapewnić ich poprawność, rzetelność i zgodność z oczekiwaniami.
+* **Tworzenie lepszych promptów**: Doświadczenie i wiedza człowieka są kluczowe w iteracyjnym procesie ulepszania `promptów`. Analizując wyniki i identyfikując niedoskonałości, człowiek może tworzyć coraz skuteczniejsze zapytania, co przekłada się na lepszą wydajność modeli językowych.
 
 ## Podsumowanie
 
-Ten dokument to zwięzłe podsumowanie najważniejszych zagadnień z kursu `prompt engineeringu`. Kurs wprowadza koncepcje **GenAI** i **LLM**, wyjaśniając, w jaki sposób te technologie kreują nowe treści i jak efektywnie nimi sterować za pomocą `prompt engineeringu`.  Podkreślono znaczenie **pięcioetapowego podejścia** do tworzenia `promptów` oraz kluczową rolę **ludzkiej weryfikacji**. Omówiono zarówno podstawowe, jak i zaawansowane **metody promptowania**, prezentując szerokie spektrum **zastosowań GenAI i LLM**, od streszczania tekstów po generowanie grafik i formuł.  Kluczowym wnioskiem jest nieodzowność **ludzkiej interwencji i umiejętności formułowania efektywnych promptów** dla pełnego wykorzystania potencjału sztucznej inteligencji.
+Kurs "Podstawy Promptowania" wprowadza w świat Generatywnej Sztucznej Inteligencji (**GenAI**) i Dużych Modeli Językowych (**LLM**). Kluczowym elementem efektywnego wykorzystania tych technologii jest inżynieria `promptów`, czyli umiejętność tworzenia skutecznych zapytań. Kurs podkreśla pięcioetapowe podejście do tworzenia `promptów`, metody `promptowania` (`zero-shot`, `one-shot`, `few-shot`) oraz zaawansowane techniki, takie jak łańcuch `promptów` i łańcuch myśli. Niezwykle istotna jest rola człowieka w pętli, który weryfikuje wyniki i udoskonala `prompty`. **GenAI** i **LLM** mają szerokie spektrum zastosowań, od podsumowywania tekstów po generowanie obrazów, a ich potencjał jest ogromny, pod warunkiem umiejętnego `promptowania` i ludzkiego nadzoru.
 
 
 ___
@@ -111,22 +146,22 @@ ___
 File: Materiały dodatkowe - 1. Podsumowanie.png<br>
 **Podsumowanie Kursu**
 
-Below you will find key information and tips from individual course lessons. We have compiled the most important points to help you understand the topics discussed and apply them in practice. Thanks to this summary, you will more easily remember the main principles and quickly implement the acquired knowledge in your projects.
+Poniżej znajdziesz kluczowe informacje i wskazówki z poszczególnych lekcji kursu. Zebraliśmy najważniejsze punkty, które pomogą Ci zrozumieć omawiane tematy oraz zastosować je w praktyce. Dzięki temu podsumowaniu łatwiej zapamiętasz główne zasady i szybciej wdrożysz zdobytą wiedzę w swoich projektach.
 
-**Most important points from the basics of prompting**
+**Najważniejsze punkty z podstaw promptowania**
 
-* GenAI is a type of artificial intelligence that creates new content, such as texts and images, using LLMs.
-* LLMs are trained on large datasets of text, allowing them to understand and respond to natural language queries.
-* Prompt engineering involves designing effective prompts that allow you to get the desired results from LLMs.
-* The materials recommend a five-step approach to creating effective prompts: task, context, reference, evaluation, and iteration.
-* A human-in-the-loop approach is crucial because AI can sometimes generate inaccurate results.
-* Prompt engineering methods include zero-shot, one-shot, and few-shot approaches.
-* Advanced techniques include prompt chaining and chain of thought.
-* GenAI and LLMs can be used for summarizing texts, translating languages, and generating ideas.
-* Other applications include creating images, generating formulas for spreadsheets, and classifying information.
-* Humans are needed to verify results and create better prompts.
+* GenAI to rodzaj sztucznej inteligencji, która tworzy nowe treści, takie jak teksty i obrazy, wykorzystując LLM.
+* LLM są trenowane na dużych zbiorach danych tekstowych, co pozwala im rozumieć i odpowiadać na naturalne językowe zapytania.
+* Inżynieria promptów polega na projektowaniu skutecznych promptów, które pozwalają uzyskać pożądane wyniki z LLM.
+* Materiały rekomendują pięcioetapowe podejście do tworzenia skutecznych promptów: zadanie, kontekst, odniesienie, ocena i iteracja.
+* Podejście z człowiekiem w pętli (human-in-the-loop) jest kluczowe, ponieważ AI może czasem generować nieprecyzyjne wyniki.
+* Metody tworzenia promptów obejmują podejście zero-shot, one-shot i few-shot.
+* Zaawansowane techniki obejmują łańcuch promptów i łańcuch myśli.
+* GenAI i LLM mogą być wykorzystywane do podsumowywania tekstów, tłumaczenia języków i generowania pomysłów.
+* Inne zastosowania to tworzenie obrazów, generowanie formuł do arkuszy i klasyfikowanie informacji.
+* Człowiek jest potrzebny do weryfikacji wyników i tworzenia lepszych promptów.
 
 
 ___
 # 🏷️ Tags
-#GenAI #Generative_AI #LLM #Large_Language_Models #prompt_engineering #prompt #task #context #reference #evaluation #iteration #human-in-the-loop #zero-shot #one-shot #few-shot #prompt_chaining #chain_of_thought #text_summarization #language_translation #idea_generation #image_creation #spreadsheet_formulas #information_classification #AI_verification #AI_accuracy #effective_prompts #five-step_approach #ludzka_weryfikacja #metody_promptowania #zastosowania_GenAI_i_LLM #ludzka_interwencja
+#podsumowanie_kursu #promptowanie #GenAI #LLM #sztuczna_inteligencja #modele_językowe #inżynieria_promptów #prompt #zadanie #kontekst #odniesienie #ocena #iteracja #podejście_pięcioetapowe #człowiek_w_pętli #human-in-the-loop #weryfikacja_wyników #metody_promptowania #zero-shot #one-shot #few-shot #techniki_promptowania #łańcuch_promptów #chain_of_prompts #łańcuch_myśli #chain_of_thought #zastosowania_GenAI #zastosowania_LLM #podsumowywanie_tekstów #tłumaczenie_języków #generowanie_pomysłów #ideation #tworzenie_obrazów #generowanie_formuł #arkusze_kalkulacyjne #klasyfikowanie_informacji #rola_człowieka #ulepszanie_promptów #efektywne_promptowanie #nadzór_ludzki
