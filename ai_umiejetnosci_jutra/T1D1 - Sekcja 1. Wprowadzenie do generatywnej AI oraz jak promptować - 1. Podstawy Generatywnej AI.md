@@ -4,97 +4,76 @@
 
 ```mermaid
 mindmap
-  root((Generative AI (GenAI) Lesson Summary))
-    Introduction
-      Prelegent: Łukasz Olejniczak
-      Analogia do nauki obsługi komputera
-      Cel: Działanie GenAI, Efektywne użycie, Zaawansowane techniki
-      Kluczowe przesłanie: Nauka GenAI = Nauka Komputera
-
-    Jak_Działa_GenAI[Jak Działa GenAI]
-      Wykorzystuje LLM (Large Language Models)
-      Kontrola Promptami (Pytania)
-      Rola Człowieka: Tworzenie Promptów
-      Weryfikacja Odpowiedzi (Merytoryczna poprawność)
-      Ryzyko Halucynacji (Nieprawdziwe odpowiedzi)
-
-    Czym_Jest_GenAI[Czym Jest GenAI]
-      Definicja GenAI: Generuje nowe treści (tekst, obrazy, multimedia)
-      Wykorzystuje LLM
-      Definicja LLM: Trenowany na dużych zbiorach tekstu, rozpoznaje wzorce językowe
-      Język Naturalny: Język codzienny
-      Zdolności LLM: Rozpoznaje intencje, dostarcza odpowiedzi
-
-    Co_Potrafią_LLM[Co Potrafią LLM]
-      Podsumowywanie tekstów
-      Rozwiązywanie problemów 💡
-      Tłumaczenie 🌐
-      Edytowanie tekstów ✍️
-      Generowanie pomysłów ✨
-      Klasyfikowanie treści
-
-    Prompt_Engineering[Prompt Engineering]
-      Definicja: Opracowanie optymalnych promptów
-      Cel: Jasne polecenia i kontekst dla AI
-      Przykłady Promptów: Popraw [tekst], Przetłumacz maila, Popraw tekst [w mailu]
-
-    AI_vs_UczenieMaszynowe_vs_LLM[AI, Uczenie Maszynowe, LLM]
-      AI (Sztuczna Inteligencja): Najszersze pojęcie
-      Uczenie Maszynowe: Metoda AI, programy uczące się na danych
-      LLM (Duży Model Językowy): Program nauczony na tekście, generuje tekst, przykład GenAI
-      Prompt Engineering: Ulepszanie odpowiedzi GenAI
-
-    Rola_Człowieka[Rola Człowieka]
-      Niezbędny do: Promptowania, Weryfikacji, Wykorzystania odpowiedzi
-      Unikanie Halucynacji: Zwiększa dokładność i trafność
-
-    Halucynacje_w_GenAI[Halucynacje w GenAI]
-      Występowanie: Nieprawdziwe, niedokładne wyniki
-      Przyczyny: Nieprecyzyjny prompt, Brak wiedzy modelu, Generatywna natura
-      Konieczność Weryfikacji: Każda odpowiedź
-
-    Nauka_Obsługi_GenAI[Nauka Obsługi GenAI]
-      Analogia do nauki obsługi komputera: Umiejętność do nabycia
-
-    Jak_Stworzyć_Dobry_Prompt[Jak Stworzyć Dobry Prompt]
-      Elementy: Opis zadania, Kontekst problemu, Przykład rozwiązania
-
-    Iteracja_Promptów[Iteracja Promptów]
-      Krytyczne podejście do odpowiedzi
-      Ponowne zadawanie pytań
-      Modyfikacja Promptu
-      Proces Iteracyjny: Dialog z modelem
-
-    Przykład_Promptów_Prezent[Przykład Promptów - Prezent]
-      Zły Prompt: "Pomysły na prezent poniżej 100 zł" - Brak kontekstu, ogólne odpowiedzi
-      Dobry Prompt: "Prezent urodzinowy dla 10-latki, fioletowy, konie i jednorożce, budżet 100 zł" - Konkretny, trafne propozycje
-
-    Gdy_AI_Nie_Daje_Odpowiedzi[Gdy AI Nie Daje Odpowiedzi]
-      Ponowne Pytanie
-      Dodanie Kontekstu i Przykładów
-      Iteracja Promptów
-      Podobieństwo do Rozmowy
-
-    Ocena_Odpowiedzi_GenAI[Ocena Odpowiedzi GenAI]
-      Kluczowe Pytania: Dokładność, Kompletność, Związek z zadaniem, Spójność
-
-    Modyfikacja_Promptu_Poprawa_Wyników[Modyfikacja Promptu - Poprawa Wyników]
-      Rozwiązywanie Problemów
-      Analogia do Gry Komputerowej 🎮: Próbuj do skutku
-
-    Zaawansowane_Techniki_Promptowania[Zaawansowane Techniki Promptowania]
-      "Kody" Promptowania: Legalne i efektywne metody
-      Few-shot Prompting: Kilka przykładów
-      Zero-shot Prompting: Bez przykładów
-      One-shot Prompting: Jeden przykład
-
-    Podsumowanie_Lekcji[Podsumowanie Lekcji]
-      GenAI: Potężne narzędzie, nauka efektywnego wykorzystania
-      Prompt Engineering: Kluczowy element sukcesu
-      Iteracja Promptów i Krytyczna Ocena Odpowiedzi
-      Weryfikacja Odpowiedzi i Ryzyko Halucynacji
-      Zaawansowane Techniki Promptowania = Większa Efektywność
-      Nauka GenAI = Nauka Komputera, Przynosi Korzyści
+  root((Generatywna Sztuczna Inteligencja))
+    Wprowadzenie do Gen AI
+      Łukasz Olejniczak Google Cloud Poland
+      Nauka Gen AI jak Nauka komputera
+      Cel lekcji Zrozumienie i Efektywne Korzystanie
+      Kluczowe Przesłanie LLM Prompty Kontrola Weryfikacja
+    Jak działa Gen AI
+      Gen AI Generatywna Sztuczna Inteligencja
+        Generowanie Treści Tekst Obrazy Multimedia
+      LLM Duże Modele Językowe
+        Podstawa Gen AI
+        Trenowane na Dużych Zbiorach Tekstu
+        Rozpoznawanie Wzorców Językowych
+        Komunikacja w Języku Naturalnym
+    Co potrafią LLM-y
+      Umiejętności LLM-ów
+        Podsumowywanie Tekstów
+        Rozwiązywanie Problemów
+        Tłumaczenie Języków
+        Edytowanie Tekstów
+        Generowanie Pomysłów
+        Klasyfikowanie Treści
+    Prompt Engineering
+      Opracowywanie Optymalnych Promptów
+      Cel Jasne Polecenia i Kontekst
+      Przykłady Prostych Promptów
+        Popraw maila
+        Przetłumacz tekst
+        Skoryguj tekst
+    Podsumowanie Pojęć
+      AI Sztuczna Inteligencja Najszersze Pojęcie
+      Uczenie Maszynowe Metoda AI Uczenie na Danych
+      LLM Duże Modele Językowe Programy Trenowane Generowanie Tekstu
+      Gen AI Generatywna Sztuczna Inteligencja Rodzaj LLM Generowanie Treści
+      Prompt Engineering Ulepszanie Odpowiedzi Gen AI przez Prompty
+    Metody Promptowania
+      Zero-shot Prompting Bez Przykładów Proste Zapytania
+      One-shot Prompting Jeden Przykład
+      Few-shot Prompting Kilka Przykładów Konkretny Wynik Tok Myślenia
+        Shot Przykład
+        Kontekst i Przykłady Lepsze Rezultaty
+    Praktyczny Przykład Promptowania w Gemini
+      Przykład 1 Zero-shot
+        Prompt Pomysły na prezent ponizej 100 zl
+        Wynik Szeroki Zakres Brak Konkretów
+      Przykład 2 Few-shot
+        Prompt 4 pomysły prezent urodzinowy 10 latka fiolet konie jednorożce ponizej 100 zl
+        Wynik Konkretne Pomysły Dopasowane Miejsca Zakupu
+    Iteracyjne Promptowanie i Ocena Odpowiedzi
+      Iteracja Promptów Interaktywny Proces Rozmowa Doprecyzowanie
+        Nie Rezygnować po 1 Odpowiedzi
+        Ponowić Zapytanie Więcej Kontekstu
+        Czasem Zacząć od Nowa
+      Kryteria Oceny Odpowiedzi
+        Dokładność
+        Wystarczalność Informacji
+        Związek z Zadaniem
+        Spójność
+      Modyfikacja Promptu Lepsze Rezultaty
+      Analogia do Gry Komputerowej Próbować do Skutku
+      Kody w Promptowaniu Metody Promptowania
+    Podsumowanie Lekcji
+      Gen AI opiera się na LLM
+      Prompt Engineering Klucz do Gen AI
+      Metody Promptowania zero-shot one-shot few-shot
+      Kontekst i Przykłady one-shot few-shot Lepsza Jakość
+      Iteracja i Ocena Niezbędne
+      Promptowanie Interakcja Eksperymentowanie Precyzja
+      Nauka Gen AI Nauka Komputera
+      Zrozumienie Prompt Engineeringu i Metod Potencjał Gen AI
 ```
 
 ___
@@ -102,266 +81,256 @@ ___
 # 🗒️ Notatka
 
 
-# Notatki i Podsumowanie Lekcji o Generatywnej Sztucznej Inteligencji
+# Notatki i Podsumowanie Lekcji: Jak Działa Generatywna Sztuczna Inteligencja
 
-## Wprowadzenie do Generatywnej Sztucznej Inteligencji (`GenAI`)
+## Wprowadzenie do Generatywnej Sztucznej Inteligencji (Gen AI)
 
-* **Prelegent:** Łukasz Olejniczak, Customer Engineer for Smart Analytics and AI, Google Cloud Poland.
-* **Analogia do nauki obsługi komputera:** Nikt nie rodzi się z umiejętnością korzystania z komputera, ale każdy może się tego nauczyć. Podobnie jest z generatywną sztuczną inteligencją.
-* **Cel lekcji:** Wyjaśnienie działania `GenAI`, efektywnego korzystania z niej w 5 krokach oraz zaawansowanego użytkowania.
-* **Kluczowe przesłanie:** Tak jak nauczyliśmy się obsługiwać komputery, możemy i powinniśmy nauczyć się obsługi `GenAI`.
+* **Łukasz Olejniczak** z Google Cloud Poland przedstawia lekcję o generatywnej sztucznej inteligencji.
+* Nauka obsługi **Gen AI** jest porównywalna do nauki obsługi komputera – każdy może się jej nauczyć.
+* **Cel lekcji:** Zrozumienie działania **Gen AI** i efektywne korzystanie z niej.
+* **Kluczowe przesłanie:** **Gen AI** wykorzystuje **modele językowe (LLM)**, a odpowiednio sformułowane `prompty` pozwalają kontrolować i wykorzystywać wiedzę tych modeli. Kluczowa jest nasza rola w konstruowaniu pytań i weryfikacji odpowiedzi.
 
-## Jak Działa Generatywna Sztuczna Inteligencja?
+## 01 Jak Działa Generatywna Sztuczna Inteligencja?
 
-* **Wykorzystanie Modeli Językowych (`LLM`):** `GenAI` wykorzystuje **duże modele językowe (`LLM`)**, trenowane przy użyciu technik uczenia maszynowego inspirowanych działaniem ludzkiego mózgu 🧠.
-* **Kontrola za Pomocą Promptów:** Modele `LLM` można kontrolować i wykorzystywać ich wiedzę oraz zdolności generatywne do uzyskiwania odpowiedzi poprzez odpowiednie zadawanie pytań, zwanych **promptami**.
-* **Kluczowa Rola Człowieka:** To my tworzymy pytania (`prompty`) w sposób, który umożliwia modelowi zrozumienie kontekstu zapytania.
-* **Weryfikacja Odpowiedzi:** Istotne jest weryfikowanie merytorycznej poprawności odpowiedzi generowanych przez model, ponieważ modele `GenAI` mogą generować odpowiedzi nawet wtedy, gdy nie mają pewności co do ich prawdziwości.
-* **Ryzyko Halucynacji:** Modele `GenAI` mogą generować nieprawdziwe lub niedokładne odpowiedzi, co określa się mianem **halucynacji**.
+* **Gen AI (Generative Artificial Intelligence)** – generatywna sztuczna inteligencja.
+    * Rodzaj sztucznej inteligencji, który generuje nowe treści, takie jak teksty, obrazy i multimedia.
+* **LLM (Large Language Models)** – duże modele językowe.
+    * Stanowią podstawę **Gen AI**.
+    * Są trenowane na ogromnych zbiorach tekstu.
+    * Rozpoznają wzorce i zależności w języku naturalnym.
+    * Umożliwiają komunikację w języku, którym posługujemy się na co dzień.
 
-## Czym Jest Generatywna Sztuczna Inteligencja (`GenAI`)?
+## Co Konkretnie Potrafią LLM-y?
 
-* **Definicja `GenAI`:** **Generatywna Sztuczna Inteligencja (`GenAI`)** to rodzaj sztucznej inteligencji, który generuje nowe treści, takie jak teksty, obrazy lub multimedia.
-* **Wykorzystanie `LLM`:** `GenAI` wykorzystuje **Large Language Models (`LLM`)**, czyli **duże modele językowe**.
-* **Definicja `LLM`:** **Duże Modele Językowe (`LLM`)** to rodzaj sztucznej inteligencji trenowany na ogromnych zbiorach tekstu. Dzięki temu `LLM` rozpoznają wzorce i zależności między słowami, pojęciami i wyrażeniami w języku naturalnym.
-* **Język Naturalny:** Język, którym posługujemy się na co dzień w rozmowach.
-* **Zdolności `LLM`:** `LLM` potrafią nie tylko rozpoznawać intencję pytania, ale także dostarczać odpowiedzi.
+* **Umiejętności LLM-ów:**
+    * Podsumowywanie złożonych tekstów
+    * Rozwiązywanie problemów
+    * Tłumaczenie na różne języki
+    * Edytowanie tekstów
+    * Generowanie pomysłów
+    * Klasyfikowanie treści
 
-## Co Potrafią Modele `LLM`?
+## Prompt Engineering – Klucz do Lepszych Odpowiedzi
 
-* **Podsumowywanie** złożonych i długich tekstów.
-* **Rozwiązywanie problemów** 💡.
-* **Tłumaczenie** na różne języki 🌐.
-* **Edytowanie tekstów** ✍️.
-* **Generowanie pomysłów** ✨.
-* **Klasyfikowanie treści**.
+* **Prompt engineering:** Proces opracowywania optymalnych podpowiedzi (`promptów`) dla modeli **Gen AI**.
+* **Cel `prompt engineeringu`:** Dostarczanie jasnych i konkretnych poleceń oraz kontekstu dla asystenta AI.
+* **Przykłady prostych `promptów`:**
+    * „Popraw maila”
+    * „Przetłumacz tekst”
+    * „Skoryguj tekst”
 
-## `Prompt Engineering` - Sztuka Tworzenia Promptów
+## Podsumowanie Pojęć: AI, Uczenie Maszynowe, LLM, Gen AI, Prompt Engineering
 
-* **Definicja `Prompt Engineeringu`:** **`Prompt engineering`** to proces opracowywania optymalnych podpowiedzi (`promptów`) dla modelu `GenAI`.
-* **Cel `Prompt Engineeringu`:** Dostarczanie **jasnych, konkretnych poleceń i kontekstu** dla asystenta AI.
-* **Przykłady Prostych Promptów:**
-    * Popraw [tekst].
-    * Przetłumacz maila [na język].
-    * Popraw tekst [w mailu].
+* **AI (Sztuczna Inteligencja):** Najszersze pojęcie.
+* **Uczenie Maszynowe:** Metoda **AI**, polegająca na tworzeniu programów uczących się na danych.
+* **LLM (Duże Modele Językowe):** Programy trenowane na ogromnych zbiorach tekstów, generujące tekst.
+* **Gen AI (Generatywna Sztuczna Inteligencja):** Rodzaj **LLM**, który generuje różnorodne treści.
+* **Prompt Engineering:** Metoda ulepszania odpowiedzi **Gen AI** poprzez precyzyjne formułowanie `promptów`.
 
-## Sztuczna Inteligencja (`AI`), Uczenie Maszynowe i `LLM` - Podsumowanie Pojęć
+## Metody Promptowania
 
-* **`AI` (Sztuczna Inteligencja):** Najszersze pojęcie, ogólna dziedzina.
-* **Uczenie Maszynowe:** Metoda `AI`, polegająca na tworzeniu programów uczących się na danych.
-* **`LLM` (Duży Model Językowy):** Program nauczony na ogromnych ilościach tekstu, który generuje tekst. Jest przykładem **generatywnej sztucznej inteligencji (`GenAI`)**.
-* **`Prompt Engineering`:** Stosowany w celu uzyskiwania i ulepszania odpowiedzi od `GenAI`.
+* **Różne metody `promptowania`:**
+    * **Zero-shot prompting:** `Promptowanie` bez użycia przykładów.
+        * Efektywne w przypadku prostych zapytań.
+    * **One-shot prompting:** `Promptowanie` z wykorzystaniem pojedynczego przykładu.
+    * **Few-shot prompting:** `Promptowanie` oparte na kilku przykładach rozwiązania podobnego problemu.
+        * `Shot` = przykład.
+        * Bardziej efektywne, gdy oczekujemy konkretnego wyniku i chcemy, aby model zrozumiał nasz sposób myślenia.
+        * Dostarczenie kontekstu i przykładów znacząco poprawia jakość rezultatów.
 
-## Rola Człowieka w Procesie `GenAI`
+## Praktyczny Przykład Promptowania w Gemini
 
-* **Niezbędność Człowieka:** Człowiek jest niezbędny do:
-    * **Promptowania** (konstruowania pytań).
-    * **Weryfikowania odpowiedzi** od AI.
-    * **Wykorzystywania otrzymanych odpowiedzi**.
-* **Unikanie Halucynacji:** Podejście z udziałem człowieka pomaga minimalizować negatywne skutki halucynacji, co przekłada się na większą dokładność i trafność wyników generowanych przez AI.
+* **Przykład 1: Zero-shot prompting (brak kontekstu)**
+    * `Prompt`: „Podaj mi kilka pomysłów na prezent poniżej 100 zł.”
+    * Wynik: Szeroki zakres pomysłów, brak konkretów.
+* **Przykład 2: Few-shot prompting (dodanie kontekstu)**
+    * `Prompt`: „Podaj mi 4 pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która lubi kolor fioletowy i jest fanką koni i jednorożców. Mój budżet to 100 zł.”
+    * Wynik: Konkretne pomysły, dopasowane do zadanego kontekstu (zainteresowania, wiek, budżet).
+    * Model wskazuje nawet potencjalne miejsca zakupu.
 
-## Halucynacje w `GenAI`
+## Iteracyjne Promptowanie i Ocena Odpowiedzi
 
-* **Występowanie Halucynacji:** `GenAI` czasami generuje **nieprawdziwe, niedokładne wyniki** (halucynacje).
-* **Przyczyny Halucynacji:**
-    * **Nieprecyzyjny prompt.**
-    * **Brak wiedzy modelu** na dany temat.
-    * Generatywna natura modelu, który zawsze dąży do udzielenia odpowiedzi.
-* **Konieczność Weryfikacji:** **Każda odpowiedź od `GenAI` powinna być zweryfikowana przez człowieka.**
-
-## Nauka Obsługi `GenAI`
-
-* **Analogia do Nauki Obsługi Komputera:** Nauka obsługi `GenAI` przypomina naukę obsługi komputera – jest umiejętnością, którą można nabyć.
-
-## Jak Stworzyć Dobry Prompt?
-
-* **Elementy Dobrego Promptu:**
-    * **Opis zadania.**
-    * **Kontekst problemu.**
-    * **Przykład rozwiązania** zbliżonego zadania (przykłady).
-
-## Iteracja i Modyfikacja Promptów
-
-* **Krytyczne Podejście do Odpowiedzi:** Należy podchodzić krytycznie do każdej odpowiedzi generowanej przez `GenAI`.
-* **Ponowne Zadawanie Pytań:** Jeśli odpowiedź nie jest satysfakcjonująca, warto spróbować zadać pytanie ponownie.
-* **Modyfikacja Promptu:** Należy zastanowić się, czego brakuje w odpowiedzi i zmodyfikować prompt, aby model skupił się na konkretnych aspektach.
-* **Iteracja Promptów:** `Promptowanie` to proces iteracyjny, przypominający dialog z modelem, wymagający ciągłego doprecyzowywania.
-
-## Przykład Złego i Dobrego Promptu - Prezent dla Siostrzenicy
-
-### Zły Prompt:
-
-* **Prompt:** \"Podaj mi kilka pomysłów na prezent poniżej 100 zł.\"
-* **Problem:** Brak kontekstu, odpowiedź zbyt ogólna, model proponuje uniwersalne pomysły.
-
-### Dobry Prompt:
-
-* **Prompt:** \"Podaj cztery pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która interesuje się kolorem fioletowym oraz jest fanką koni 🐴 i jednorożców 🦄. Mój budżet wynosi 100 zł.\"
-* **Zalety:** Zawiera kontekst (dla kogo, zainteresowania, budżet).
-* **Wynik:** Model wygenerował konkretne i trafne propozycje, uwzględniając preferencje dziewczynki i budżet.
-
-## Co, Gdy AI Nie Daje Odpowiedniej Odpowiedzi?
-
-* **Ponowne Pytanie:** Zamiast rezygnować, należy spróbować zapytać ponownie.
-* **Dodanie Kontekstu i Przykładów:** Wzbogacić prompt o więcej przykładów i dodatkowy kontekst.
-* **Iteracja Promptów:** Kontynuować iterację promptów, prowadząc dialog z modelem.
-* **Podobieństwo do Rozmowy:** `Promptowanie` przypomina naturalną rozmowę, z pauzami, doprecyzowaniami i modyfikacjami.
-
-## Ocena Odpowiedzi `GenAI` - Kluczowe Pytania
-
-* **Dokładność:** Czy wynik jest dokładny?
-* **Kompletność Informacji:** Czy wynik jest wyczerpujący?
-* **Związek z Zadaniem:** Czy wynik jest adekwatny do mojego projektu lub zadania?
-* **Spójność:** Czy uzyskuję spójne wyniki, zadając wielokrotnie to samo pytanie?
-
-## Modyfikacja Promptu w Celu Poprawy Wyników
-
-* **Rozwiązywanie Problemów:** Jeśli ocena odpowiedzi ujawnia niedociągnięcia, modyfikacja promptu może pomóc w ich eliminacji i uzyskaniu lepszych rezultatów.
-* **Analogia do Gry Komputerowej:** Podobnie jak w grze komputerowej 🎮, rzadko udaje się przejść poziom za pierwszym podejściem. Warto próbować do skutku.
-
-## Zaawansowane Techniki Promptowania - \"Kody\"
-
-* **\"Kody\" Promptowania:** Legalne i efektywne metody `promptowania`, ułatwiające pracę z `GenAI`.
-* **`Few-shot Prompting`:** `Promptowanie` oparte na **kilku przykładach** rozwiązania zbliżonego problemu.
-* **`Zero-shot Prompting`:** `Promptowanie` **bez użycia jakichkolwiek przykładów**.
-* **`One-shot Prompting`:** `Promptowanie` z **jednym przykładem**.
+* **Iteracja `promptów`:** `Promptowanie` to interaktywny proces, przypominający rozmowę z modelem, który wymaga iteracji i doprecyzowania.
+    * Nie należy rezygnować po pierwszej, niezadowalającej odpowiedzi.
+    * Warto ponowić zapytanie, dodając więcej przykładów i kontekstu.
+    * Czasami konieczne jest rozpoczęcie od nowa lub powrót do podstawowego `promptu`.
+* **Kryteria oceny odpowiedzi:**
+    * **Dokładność:** Czy uzyskany wynik jest precyzyjny?
+    * **Wystarczalność informacji:** Czy odpowiedź zawiera kompletne informacje?
+    * **Związek z zadaniem:** Czy wynik jest adekwatny w kontekście projektu/zadania?
+    * **Spójność:** Czy odpowiedź jest spójna przy wielokrotnym zadawaniu tego samego pytania?
+* **Modyfikacja `promptu`:** Jeśli ocena odpowiedzi ujawni niedociągnięcia, modyfikacja `promptu` może prowadzić do lepszych rezultatów.
+* **Analogia do gry komputerowej:** Sukces rzadko przychodzi za pierwszym podejściem – warto próbować do skutku.
+* „Kody” w `promptowaniu`: Metody `promptowania` można traktować jako „kody”, które ułatwiają efektywną pracę z **Gen AI**.
 
 ## Podsumowanie Lekcji
 
-* Generatywna sztuczna inteligencja (`GenAI`) to potężne narzędzie, którego efektywnego wykorzystania możemy się nauczyć.
-* Kluczowym elementem sukcesu jest **`prompt engineering`** - umiejętność tworzenia precyzyjnych i kontekstowych promptów.
-* Istotna jest **iteracja promptów** oraz **krytyczna ocena odpowiedzi** generowanych przez model.
-* Należy pamiętać o **weryfikacji odpowiedzi** i ryzyku wystąpienia **halucynacji**.
-* Wykorzystując zaawansowane techniki `promptowania`, takie jak **`few-shot`, `zero-shot` i `one-shot prompting`**, możemy znacząco zwiększyć efektywność naszej pracy z `GenAI`.
-* Nauka obsługi `GenAI` jest możliwa i przyniesie wiele korzyści, podobnie jak nauka obsługi komputera.
+* Generatywna sztuczna inteligencja (**Gen AI**) opiera się na dużych modelach językowych (**LLM**).
+* **Prompt engineering** – umiejętność tworzenia odpowiednich `promptów` – jest kluczem do efektywnego wykorzystania **Gen AI**.
+* Istnieją różne metody `promptowania`: **zero-shot**, **one-shot**, **few-shot**.
+* Dodawanie **kontekstu i przykładów** (metody **one-shot** i **few-shot**) znacząco podnosi jakość odpowiedzi.
+* **Iteracyjne `promptowanie`** i **ocena odpowiedzi** są niezbędne w procesie uzyskiwania pożądanych rezultatów.
+* `Promptowanie` to ciągła interakcja z modelem, wymagająca eksperymentowania i precyzji.
+
+Lekcja podkreśla, że każdy może nauczyć się korzystać z generatywnej sztucznej inteligencji, podobnie jak opanował obsługę komputera. Kluczowe jest zrozumienie zasad `prompt engineeringu` i praktyczne stosowanie różnorodnych metod `promptowania`, aby w pełni wykorzystać potencjał **Gen AI**.
 
 
 ___
 
 # 🔉 Transcript
 File: Sekcja 1. Wprowadzenie do generatywnej AI oraz jak promptować - 1. Podstawy Generatywnej AI.mp4<br>
-[00:00:05] Speaker: Cześć.
-[00:00:06] Screen: Łukasz Olejniczak, Customer Engineer for Smart Analytics and AI, Google Cloud Poland.
-[00:00:06] Speaker: To marzenie takie oczywiste, ale nikt z nas nie urodził się z umiejętnością korzystania z komputera.
-[00:00:13] Speaker: Każdy miał ten moment, kiedy po raz pierwszy posadzony przed klawiaturą i ekranem musiał odpalić komputer, stworzyć pierwszy folder, a potem właściwie nie wiedząc kiedy, grał w skomplikowane gry, pisał pracę dyplomową i z komputerem już się nie rozstawał.
-[00:00:32] Speaker: I tak jak każde z nas był w stanie nauczyć się obsługi komputera, tak samo możemy, a nawet powinniśmy nauczyć się obsługi generatywnej sztucznej inteligencji.
-[00:00:44] Speaker: W tej lekcji opowiem wam jak działa generatywna sztuczna inteligencja, jak korzystać z niej skutecznie w pięciu krokach, jak korzystać z niej lepiej niż inni, czyli jak używać jej na poziomie zaawansowanym.
-[01:01:01] Speaker: I gdybym miał podsumować wszystko, co powinniście wiedzieć po tej lekcji w jednym zdaniu, to brzmiałoby ono tak: wykorzystuje modele językowe, tak zwane LLM-y, które używają różnych technik uczenia maszynowego inspirowanych sposobem działania ludzkiego mózgu.
-[01:24:01] Speaker: Odpowiednio zadając pytania, tak zwane prompty, jesteśmy w stanie przejąć kontrolę nad tymi modelami, niczym pilot nad samolotem i wykorzystać wiedzę zapisaną w modelu w trakcie jego trenowania oraz jego generatywne zdolności do uzyskania odpowiedzi na nasze pytania.
-[01:46:54] Speaker: Nasza rola jest tutaj kluczowa.
-[01:49:37] Speaker: To my będziemy konstruować pytania w sposób, który pozwoli modelowi rozpoznać co się za tym pytaniem kryje, tak zwany kontekst pytania.
-[02:01:49] Speaker: Na koniec będziemy musieli zweryfikować czy odpowiedź jest merytorycznie poprawna, bowiem tego typu modele są stworzone do generowania i generują nawet wtedy, kiedy nie są pewne odpowiedzi.
-[02:18:08] Speaker: I mówimy wtedy o ryzyku halucynacji.
-[02:21:51] Speaker: Prawda, że proste?
-[02:23:35] Speaker: Przeróbmy to na spokojnie.
-[02:25:58] Speaker: Zacznijmy od GenAI, skrótowca od generative Artificial Intelligence, a po polsku generatywnej sztucznej inteligencji.
-[02:35:54] Speaker: GenAI to rodzaj sztucznej inteligencji, która generuje nowe treści, na przykład teksty, obrazy lub inne multimedia.
-[02:47:34] Speaker: GenAI wykorzystuje LLM-y, czyli Large Language Models, a po polsku duże modele językowe.
-[02:56:23] Speaker: To rodzaj sztucznej inteligencji trenowanej na dużej ilości tekstu, co sprawia, że może rozpoznawać pewne wzorce i zależności pomiędzy słowami i pojęciami, a także wyrażeniami w języku naturalnym.
-[03:13:55] Speaker: Czyli w takim języku, jakim posługujemy się na co dzień w rozmowach między sobą.
-[03:21:39] Speaker: Może nie tylko rozpoznawać, o co nam chodzi, ale też dostarczać odpowiedzi.
-[03:28:23] Speaker: Co konkretnie potrafią LLM-y?
-[03:29:45] Screen: Co konkretnie potrafią LLM-y?: podsumowywać złożone i długie teksty, rozwiązywać problemy, tłumaczyć na różne języki, edytować teksty, generować pomysły, klasyfikować.
-[03:32:05] Speaker: Potrafią podsumowywać złożone i długie teksty, rozwiązywać problemy, tłumaczyć na różne języki, edytować teksty, generować pomysły lub klasyfikować treści.
-[03:50:29] Speaker: Modele GenAI dają lepsze odpowiedzi, jeśli posiadamy umiejętność z zakresu tak zwanego prompt engineeringu.
-[03:57:39] Speaker: Brzmi skomplikowanie?
-[03:59:00] Speaker: Niekoniecznie.
-[04:01:20] Speaker: Prompt engineering polega na opracowaniu jak najlepszych podpowiedzi dla modelu.
-[04:07:13] Speaker: Chodzi o to, żeby ten nasz AI asystent po prostu otrzymywał jasne, konkretne polecenia i kontekst.
-[04:17:48] Speaker: Parę promptów przed chwilą widzieliście.
-[04:21:08] Speaker: Popraw, przetłumacz maila, popraw tekst.
-[04:24:41] Speaker: To proste prompty.
-[04:27:11] Speaker: Da się lepiej, ale to za chwilę.
-[04:31:15] Speaker: Podsumujmy.
-[04:32:18] Speaker: Sztuczna inteligencja, czyli AI, to najszersze pojęcie.
-[04:37:06] Speaker: Jedną z metod AI jest uczenie maszynowe, czyli tworzenie programów uczących się na danych.
-[04:45:11] Speaker: A LLM to program, który nauczony jest na ogromnych ilościach tekstu.
-[04:51:29] Speaker: A do tego sam generuje tekst, przez co jest przykładem tak zwanej generatywnej sztucznej inteligencji.
-[04:58:58] Speaker: Aby uzyskiwać i ulepszać odpowiedzi od GenAI, stosujemy prompt engineering.
-[05:06:24] Speaker: Na czym polega nasza rola w tym procesie?
-[05:09:13] Speaker: Człowiek jest niezbędny do promptowania, weryfikowania odpowiedzi od AI i na koniec to on będzie wykorzystywać otrzymane odpowiedzi.
-[05:20:24] Speaker: Takie podejście pozwala na uniknięcie potencjalnych negatywnych skutków halucynacji, przez co wyniki generowane przez AI mają szansę być bardziej dokładne i trafne.
-[05:35:10] Speaker: Wspomniane halucynacje mogą zdarzyć się każdemu.
-[05:39:17] Speaker: Również GenAI czasami podaje nieprawdziwe, niedokładne wyniki.
-[05:45:11] Speaker: Może to być spowodowane nieprecyzyjnym promptem albo faktem, że model nie posiada wiedzy na dany temat, ale jego generatywna natura sprawia, że zawsze próbuje odpowiedzieć na zadany prompt.
-[06:01:02] Speaker: Dlatego każda odpowiedź od GenAI powinna być weryfikowana przez człowieka.
-[06:09:20] Speaker: Tak jak komputer, GenAI potrzebuje człowieka, ale też człowiek, tak jak uczy się obsługi komputera, tak samo potrzebuje nauczyć się obsługi GenAI.
-[06:31:53] Speaker: Wiecie już jak działają duże modele językowe.
-[06:32:30] Speaker: Czas przekuć teorię w praktykę.
-[06:33:17] Speaker: Dobry prompt zawiera opis zadania, kontekst problemu i przykład rozwiązania zbliżonego zadania, tak zwane przykłady.
-[06:42:58] Speaker: Dobrze by było, gdybyś podszedł krytycznie do każdej odpowiedzi i jeśli nie jest ona wystarczająco dokładna lub satysfakcjonująca, spróbował zadać pytanie jeszcze raz, ale zanim to zrobisz, zastanów się czego tej odpowiedzi brakuje i zmodyfikuj swoje zapytanie tak, żeby model wiedział, że na tych zagadnieniach powinien się skupić.
-[07:08:34] Speaker: Zobaczmy różnicę między dobrze i źle napisanym promptem.
-[07:13:04] Speaker: Przed nami niezwykle skomplikowane i trudne zadanie, które chcieli, gdybyśmy chcieli wykonać sami, mogłoby oznaczać noce i dnie wyrywania sobie włosów z głowy.
-[07:25:58] Speaker: Czyli co kupić na prezent dla dziesięcioletniej siostrzenicy?
-[07:29:15] Speaker: Użyjemy jednak do tego Gemini.
-[07:32:10] Speaker: Podaj mi kilka pomysłów na prezent poniżej 100 zł.
-[07:37:03] Speaker: Jak widzicie, brakuje kontekstu, więc model poda różne pomysły dla osób z różnymi zainteresowaniami, dorosłych i dzieci.
-[07:40:53] Speaker: Trochę zbyt szeroko, prawda?
-[07:50:27] Speaker: Spróbujmy z innym promptem.
-[07:52:58] Speaker: Podaj mi cztery pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która lubi kolor fioletowy i jest fanką koni i jednorożców.
-[08:04:25] Speaker: Mój budżet to 100 zł.
-[08:08:37] Screen: Podaj mi 4 pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która lubi kolor fioletowy i jest fanką koni i jednorożców. Mój budżet to 100 zł. Super, że podałaś mi więcej szczegółów! Oto 4 pomysły na prezent urodzinowy dla 10-latki, fanki koni i jednorożców, w kolorze fioletowym, do 100 zł: 1. Zestaw kreatywny do tworzenia biżuterii z motywami koni/jednorożców: Zestaw koralików, sznurków, zawieszek w kształcie koni i jednorożców pozwoli dziewczynce stworzyć własną, unikalną biżuterię. Upewnij się, że w zestawie dominuje kolor fioletowy lub, że koraliki są w różnych kolorach, w tym fioletowym.
-[08:15:15] Speaker: Zobaczcie, że tutaj podaliśmy już kontekst.
-[08:17:25] Speaker: Prezent jest dla dziewczynki, której obiektem zainteresowania są konie i jednorożce.
-[08:20:26] Speaker: W tym obszarze Gemini wygenerował nam mnóstwo pomysłów, od zabawek po książki.
-[08:27:48] Speaker: Mamy w czym wybierać.
-[08:28:41] Speaker: Zauważcie, że model wskazał również konkretne miejsca, gdzie możecie kupić dany prezent.
-[08:37:17] Speaker: Chwila i zrobione.
-[08:39:33] Speaker: No dobrze, ale może się zdarzyć, że AI nie poda nam od razu odpowiedzi, która nam pasuje.
-[08:47:10] Speaker: W końcu no nie zda naszej siostrzenicy.
-[08:50:37] Speaker: W takiej sytuacji, zamiast porzucić to wszystko, wystarczy zapytać ponownie.
-[08:55:52] Speaker: Podać więcej przykładów, dodatkowy kontekst.
-[08:59:15] Speaker: Inaczej mówiąc, iterować prompty.
-[09:03:45] Speaker: Bo promptowanie to ciągła rozmowa z modelem.
-[09:06:59] Speaker: Gdy z kimś rozmawiacie, naturalne są zatrzymania, przerywniki, dopowiadanie czy strumień myśli.
-[09:14:30] Speaker: Podobnie jest z promptowaniem.
-[09:17:52] Speaker: Czasem będziecie musieli zacząć od nowa lub wrócić do bardzo podstawowej wersji promptu.
-[09:24:14] Speaker: To też jest w porządku.
-[09:27:05] Speaker: Na co zwrócić uwagę przy ocenie odpowiedzi i tego w którą stronę warto pokierować rozmową czy też zmienić kolejny prompt?
-[09:37:11] Speaker: W ocenie pomocne mogą być następujące pytania.
-[09:42:39] Speaker: Czy wynik jest dokładny?
-[09:45:47] Speaker: Czy wynik zawiera wystarczające informacje?
-[09:50:13] Speaker: Czy wynik jest związany z moim projektem lub zadaniem?
-[09:56:46] Speaker: W końcu czy uzyskuję spójny wynik zadając wielokrotnie to samo pytanie?
-[10:03:40] Speaker: Jeśli podczas oceny wyników zauważysz jakiekolwiek problemy, modyfikowanie początkowego promptu może często pomóc w ich rozwiązaniu i uzyskaniu dużo lepszego rezultatu.
-[10:17:50] Speaker: Tak jak podczas gry komputerowej.
-[10:20:37] Speaker: Rzadko przechodzi się ją za pierwszym razem.
-[10:23:20] Speaker: Warto się nie poddawać i próbować aż do skutku.
-[10:27:57] Speaker: Oczywiście tak jak w grze można też grać na kodach i znacząco ułatwić sobie pracę.
-[10:35:07] Speaker: W tym przypadku nasze kody to w pełni legalne i skuteczne metody promptowania.
-[10:41:49] Speaker: Pierwszą z nich jest few shot prompting.
-[10:45:26] Speaker: Co to jest?
-[10:47:10] Speaker: Otóż słowa shot czasem używamy jako synonim słowa przykład.
-[10:54:39] Speaker: Zatem few shot prompting to promptowanie na podstawie kilku przykładów rozwiązania zbliżonego problemu.
-[11:02:26] Speaker: Analogicznie zero shot prompting to promptowanie bez użycia jakichkolwiek przykładów.
-[11:10:24] Speaker: Natomiast one shot prompting jest użyciem podpowiedzi z jednym przykładem.
-[11:17:31] Speaker: Proste.
+[00:00:04] (Ekran: Logo "Umiejętności Jutra AI". Poniżej loga "Organizator: Google", "Partner edukacyjny: SGH", "Patronat honorowy: Minister Cyfryzacji")
+[00:00:05] (Ekran: Mężczyzna w koszulce "Google Cloud" siedzi przy biurku, na którym leży laptop)
+[00:00:05] Łukasz Olejniczak: Cześć.
+[00:00:06] (Ekran: Pod mężczyzną pojawia się podpis: "Łukasz Olejniczak Customer Engineer for Smart Analytics and AI + Google Cloud Poland")
+[00:00:06] Łukasz Olejniczak: To marzenie takie oczywiste, ale nikt z nas nie urodził się z umiejętnością korzystania z komputera.
+[00:00:13] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:00:16] Łukasz Olejniczak: Każdy miał ten moment, kiedy po raz pierwszy posadzony przed klawiaturą i ekranem musiał odpalić komputer, stworzyć pierwszy folder, a potem właściwie nie wiedząc kiedy, grał w skomplikowane gry, pisał pracę dyplomową i z komputerem już się nie rozstawał.
+[00:00:32] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:00:33] Łukasz Olejniczak: I tak jak każdy z nas był w stanie nauczyć się obsługi komputera, tak samo możemy, a nawet powinniśmy nauczyć się obsługi generatywnej sztucznej inteligencji.
+[00:00:44] (Ekran: Mężczyzna siedzi przy biurku, obok niego slajd z nagłówkiem "01 Jak działa generatywna sztuczna inteligencja?")
+[00:00:44] Łukasz Olejniczak: W tej lekcji opowiem wam jak działa generatywna sztuczna inteligencja.
+[00:00:49] (Ekran: Na slajdzie pojawiają się kolejne nagłówki: "02 Jak korzystać z niej skutecznie w 5 krokach?", "03 Jak korzystać z niej lepiej niż inni - czyli jak używać jej na poziomie zaawansowanym?")
+[00:01:00] Łukasz Olejniczak: Jak korzystać z niej skutecznie w pięciu krokach?
+[00:01:01] Łukasz Olejniczak: Jak korzystać z niej lepiej niż inni, czyli jak używać jej na poziomie zaawansowanym?
+[00:01:01] (Ekran: Mężczyzna siedzi przy biurku)
+[00:01:02] Łukasz Olejniczak: I gdybym miał podsumować wszystko, co powinniście wiedzieć po tej lekcji w jednym zdaniu, to brzmiałoby ono tak.
+[00:01:04] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:01:10] Łukasz Olejniczak: Gen AI wykorzystuje modele językowe, tak zwane LLM-y, które używają różnych technik uczenia maszynowego inspirowanych sposobem działania ludzkiego mózgu.
+[00:01:22] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:01:23] Łukasz Olejniczak: Odpowiednio zadając pytania, tak zwane prompty, jesteśmy w stanie przejąć kontrolę nad tymi modelami, niczym pilot nad samolotem i wykorzystać wiedzę zapisaną w modelu w trakcie jego trenowania oraz jego generatywne zdolności do uzyskania odpowiedzi na nasze pytania.
+[00:01:46] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:01:47] Łukasz Olejniczak: Nasza rola jest tutaj kluczowa.
+[00:01:49] Łukasz Olejniczak: To my będziemy konstruować pytania w sposób, który pozwoli modelowi rozpoznać, co się za tym pytaniem kryje.
+[00:01:58] Łukasz Olejniczak: Tak zwany kontekst pytania.
+[00:02:01] Łukasz Olejniczak: Na koniec będziemy musieli zweryfikować, czy odpowiedź jest merytorycznie poprawna, bowiem tego typu modele są stworzone do generowania.
+[00:02:13] Łukasz Olejniczak: I generują nawet wtedy, kiedy nie są pewne odpowiedzi.
+[00:02:18] Łukasz Olejniczak: I mówimy wtedy o ryzyku halucynacji.
+[00:02:21] (Ekran: Mężczyzna siedzi przy biurku)
+[00:02:22] Łukasz Olejniczak: Prawda, że proste?
+[00:02:23] Łukasz Olejniczak: Przeróbmy to na spokojnie.
+[00:02:25] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:02:26] Łukasz Olejniczak: Zacznijmy od Gen AI, skrótowca od Generative Artificial Intelligence, a po polsku generatywnej sztucznej inteligencji.
+[00:02:35] (Ekran: Mężczyzna siedzi przy biurku)
+[00:02:36] Łukasz Olejniczak: Gen AI to rodzaj sztucznej inteligencji, która generuje nowe treści, na przykład teksty, obrazy lub inne multimedia.
+[00:02:46] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:02:47] Łukasz Olejniczak: Gen AI wykorzystuje LLM-y, czyli Large Language Models, a po polsku duże modele językowe.
+[00:02:56] (Ekran: Mężczyzna siedzi przy biurku)
+[00:02:56] Łukasz Olejniczak: To rodzaj sztucznej inteligencji trenowanej na dużej ilości tekstu, co sprawia, że może rozpoznawać pewne wzorce i zależności pomiędzy słowami i pojęciami, a także wyrażeniami w języku naturalnym.
+[00:03:14] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:03:14] Łukasz Olejniczak: Czyli w takim języku, jakim posługujemy się na co dzień w rozmowach między sobą.
+[00:03:20] (Ekran: Mężczyzna siedzi przy biurku, obok niego slajd z nagłówkiem "Co konkretnie potrafią LLM-y?")
+[00:03:28] Łukasz Olejniczak: Co konkretnie potrafią LLM-y?
+[00:03:31] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:03:32] Łukasz Olejniczak: Potrafią podsumowywać złożone i długie teksty, rozwiązywać problemy, tłumaczyć na różne języki, edytować teksty, generować pomysły lub klasyfikować treści.
+[00:03:50] Łukasz Olejniczak: Modele Gen AI dają lepsze odpowiedzi, jeśli posiadamy umiejętność z zakresu tak zwanego prompt engineeringu.
+[00:03:57] (Ekran: Mężczyzna siedzi przy biurku)
+[00:03:58] Łukasz Olejniczak: Brzmi skomplikowanie?
+[00:03:59] Łukasz Olejniczak: Niekoniecznie.
+[00:04:01] Łukasz Olejniczak: Prompt engineering polega na opracowaniu jak najlepszych podpowiedzi dla modelu.
+[00:04:07] Łukasz Olejniczak: Chodzi o to, żeby ten nasz AI asystent po prostu otrzymywał jasne, konkretne polecenia i kontekst.
+[00:04:17] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:04:18] Łukasz Olejniczak: Parę promptów przed chwilą widzieliście.
+[00:04:21] Łukasz Olejniczak: Popraw, przetłumacz maila, popraw tekst.
+[00:04:25] Łukasz Olejniczak: To proste prompty.
+[00:04:27] Łukasz Olejniczak: Da się lepiej, ale to za chwilę.
+[00:04:30] (Ekran: Mężczyzna siedzi przy biurku)
+[00:04:31] Łukasz Olejniczak: Podsumujmy.
+[00:04:32] Łukasz Olejniczak: Sztuczna inteligencja, czyli AI to najszersze pojęcie.
+[00:04:37] Łukasz Olejniczak: Jedną z metod AI jest uczenie maszynowe, czyli tworzenie programów uczących się na danych.
+[00:04:45] Łukasz Olejniczak: A LLM to program, który nauczony jest na ogromnych ilościach tekstu, a do tego sam generuje tekst, przez co jest przykładem tak zwanej generatywnej sztucznej inteligencji.
+[00:04:58] Łukasz Olejniczak: Aby uzyskiwać i ulepszać odpowiedzi od Gen AI, stosujemy prompt engineering.
+[00:05:05] (Ekran: Mężczyzna siedzi przy biurku, obok niego slajd z nagłówkiem "Metody promptowania", poniżej "Few shot prompting: Tworzenie promptów na podstawie kilku przykładów rozwiązania podobnego problemu", oraz "Zero shot prompting: Tworzenie promptów bez użycia jakichkolwiek przykładów", oraz "One shot prompting: Tworzenie promptów z wykorzystaniem jednego przykładu")
+[00:05:14] Łukasz Olejniczak: Pierwszą z nich jest Few shot prompting.
+[00:05:22] Łukasz Olejniczak: Co to jest?
+[00:05:22] Łukasz Olejniczak: Otóż słowa shot czasem używamy jako synonim słowa przykład.
+[00:05:34] Łukasz Olejniczak: Zatem Few shot prompting to promptowanie na podstawie kilku przykładów rozwiązania zbliżonego problemu.
+[00:05:40] Łukasz Olejniczak: Analogicznie Zero shot prompting to promptowanie bez użycia przykładów.
+[00:05:50] Łukasz Olejniczak: Natomiast one shot prompting jest użyciem podpowiedzi z jednym przykładem.
+[00:05:50] Łukasz Olejniczak: Proste.
+[00:05:50] (Ekran: Mężczyzna siedzi przy biurku)
+[00:06:02] Łukasz Olejniczak: Promptowanie bez użycia przykładów jest okej, gdy szukasz prostych odpowiedzi na zadane pytanie.
+[00:06:11] Łukasz Olejniczak: Jednak gdy szukasz konkretnego wyniku lub jeśli chcesz, żeby model lepiej rozumiał twój tok myślenia, zastosuj one shot lub few shot prompting i podpowiedz modelowi, jak ty byś odpowiedział na podobne pytanie.
+[00:07:10] Łukasz Olejniczak: Zwróćcie uwagę, że zapewnienie kontekstu i przykładów może znacząco poprawić wyniki.
+[00:07:29] (Ekran: Mężczyzna siedzi przy biurku, na ekranie laptopa otwarta strona "gemini.google.com/app")
+[00:07:30] Łukasz Olejniczak: Użyjemy jednak do tego Gemini.
+[00:07:32] (Ekran: Widok ekranu laptopa powiększony)
+[00:07:32] Łukasz Olejniczak: Podaj mi kilka pomysłów na prezent poniżej 100 zł.
+[00:07:37] Łukasz Olejniczak: Jak widzicie, brakuje kontekstu, więc model poda różne pomysły dla osób z różnymi zainteresowaniami, dorosłych i dzieci.
+[00:07:49] Łukasz Olejniczak: Trochę zbyt szeroko, prawda?
+[00:07:50] (Ekran: Widok ekranu laptopa powiększony)
+[00:07:52] Łukasz Olejniczak: Spróbujmy z innym promptem.
+[00:07:53] (Ekran: Widok ekranu laptopa powiększony, tekst na pasku promptu "Podaj mi 4 pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która lubi kolor fioletowy i jest fanką koni i jednorożców. Mój budżet to 100 zł")
+[00:08:02] Łukasz Olejniczak: Podaj mi cztery pomysły na prezent urodzinowy dla dziesięcioletniej dziewczynki, która lubi kolor fioletowy i jest fanką koni i jednorożców.
+[00:08:07] Łukasz Olejniczak: Mój budżet to 100 zł.
+[00:08:08] (Ekran: Widok ekranu laptopa powiększony, na ekranie lista pomysłów na prezent)
+[00:08:27] Łukasz Olejniczak: Zobaczcie, że tutaj podaliśmy już kontekst.
+[00:08:29] Łukasz Olejniczak: Prezent jest dla dziewczynki, której obiektem zainteresowania są konie i jednorożce.
+[00:08:35] Łukasz Olejniczak: W tym obszarze Gemini wygenerował nam mnóstwo pomysłów od zabawek po książki.
+[00:08:36] (Ekran: Widok ekranu laptopa powiększony, na ekranie lista pomysłów na prezent)
+[00:08:59] Łukasz Olejniczak: Mamy w czym wybierać.
+[00:09:00] Łukasz Olejniczak: Zauważcie, że model wskazał również konkretne miejsca, gdzie możecie kupić dany prezent.
+[00:09:17] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:09:17] Łukasz Olejniczak: No dobrze, ale może się zdarzyć, że AI nie poda nam od razu odpowiedzi, która nam pasuje.
+[00:09:26] Łukasz Olejniczak: W końcu no nie zda naszej siostrzenicy.
+[00:09:27] (Ekran: Przybliżenie na twarz mężczyzny)
+[00:09:30] Łukasz Olejniczak: W takiej sytuacji, zamiast porzucić to wszystko, wystarczy zapytać ponownie.
+[00:09:37] Łukasz Olejniczak: Podać więcej przykładów, dodatkowy kontekst.
+[00:09:40] Łukasz Olejniczak: Inaczej mówiąc, iterować prompty.
+[00:09:45] Łukasz Olejniczak: Bo promptowanie to ciągła rozmowa z modelem.
+[00:09:50] Łukasz Olejniczak: Gdy z kimś rozmawiacie, naturalne są zatrzymania, przerywniki, dopowiadanie czy strumień myśli.
+[01:00:02] Łukasz Olejniczak: Podobnie jest z promptowaniem.
+[01:00:20] Łukasz Olejniczak: Czasem będziecie musieli zacząć od nowa lub wrócić do bardzo podstawowej wersji promptu.
+[01:00:27] Łukasz Olejniczak: To też jest w porządku.
+[01:00:28] (Ekran: Mężczyzna siedzi przy biurku, obok niego slajd z nagłówkiem "Metody promptowania", poniżej "Few shot prompting: Tworzenie promptów na podstawie kilku przykładów rozwiązania podobnego problemu", oraz "Zero shot prompting: Tworzenie promptów bez użycia jakichkolwiek przykładów", oraz "One shot prompting: Tworzenie promptów z wykorzystaniem jednego przykładu")
+[01:00:40] Łukasz Olejniczak: Na co zwrócić uwagę przy ocenie odpowiedzi i tego, w którą stronę warto pokierować rozmową czy też zmienić kolejny prompt?
+[01:01:00] (Ekran: Przybliżenie na twarz mężczyzny)
+[01:01:04] Łukasz Olejniczak: Czy wynik jest dokładny?
+[01:01:18] Łukasz Olejniczak: Czy wynik zawiera wystarczające informacje?
+[01:01:22] Łukasz Olejniczak: Czy wynik zawiera jest związany z moim projektem lub zadaniem?
+[01:01:55] Łukasz Olejniczak: W końcu czy uzyskuję spójny wynik zadając wielokrotnie to samo pytanie?
+[01:02:19] Łukasz Olejniczak: Jeśli podczas oceny wyników zauważysz jakiekolwiek problemy, modyfikowanie początkowego promptu może często pomóc w ich rozwiązaniu i uzyskaniu dużo lepszego rezultatu.
+[01:02:52] Łukasz Olejniczak: Tak jak podczas gry komputerowej.
+[01:03:03] Łukasz Olejniczak: Rzadko przechodzi się ją za pierwszym razem.
+[01:03:11] Łukasz Olejniczak: Warto się nie poddawać i próbować aż do skutku.
+[01:03:18] (Ekran: Przybliżenie na twarz mężczyzny)
+[01:03:19] Łukasz Olejniczak: Oczywiście tak jak w grze można też grać na kodach i znacząco ułatwić sobie pracę.
+[01:03:35] Łukasz Olejniczak: W tym przypadku nasze kody to w pełni legalne i skuteczne metody promptowania.
+[01:03:38] (Ekran: Mężczyzna siedzi przy biurku, obok niego slajd z nagłówkiem "Metody promptowania", poniżej "Few shot prompting: Tworzenie promptów na podstawie kilku przykładów rozwiązania podobnego problemu", oraz "Zero shot prompting: Tworzenie promptów bez użycia jakichkolwiek przykładów", oraz "One shot prompting: Tworzenie promptów z wykorzystaniem jednego przykładu")
+[01:03:54] Łukasz Olejniczak: Pierwszą z nich jest Few shot prompting.
+[01:04:05] Łukasz Olejniczak: Co to jest?
+[01:04:05] Łukasz Olejniczak: Otóż słowa shot czasem używamy jako synonim słowa przykład.
+[01:04:13] Łukasz Olejniczak: Zatem Few shot prompting to promptowanie na podstawie kilku przykładów rozwiązania zbliżonego problemu.
+[01:04:54] Łukasz Olejniczak: Analogicznie Zero shot prompting to promptowanie bez użycia przykładów.
+[01:05:04] Łukasz Olejniczak: Natomiast one shot prompting jest użyciem podpowiedzi z jednym przykładem.
+[01:05:04] Łukasz Olejniczak: Proste.
 
 ___
 # 🏷️ Tags
-#GenAI
-#generatywna_sztuczna_inteligencja
+#Gen_AI
+#Generative_Artificial_Intelligence
 #sztuczna_inteligencja
-#AI
 #LLM
-#large_language_models
+#Large_Language_Models
 #duże_modele_językowe
-#uczenie_maszynowe
-#machine_learning
+#model_językowy
 #prompt
-#prompty
 #prompt_engineering
-#język_naturalny
-#halucynacje
-#weryfikacja_odpowiedzi
-#iteracja_promptów
-#opis_zadania
-#kontekst_problemu
-#przykład_rozwiązania
-#few-shot_prompting
+#AI
+#uczenie_maszynowe
 #zero-shot_prompting
 #one-shot_prompting
-#modele_językowe
-#Customer_Engineer
+#few-shot_prompting
+#promptowanie
+#kontekst
+#iteracyjne_promptowanie
+#ocena_odpowiedzi
+#dokładność
+#wystarczalność_informacji
+#związek_z_zadaniem
+#spójność
+#modyfikacja_promptu
+#halucynacje
 #Google_Cloud_Poland
 #Łukasz_Olejniczak
+#Gemini
