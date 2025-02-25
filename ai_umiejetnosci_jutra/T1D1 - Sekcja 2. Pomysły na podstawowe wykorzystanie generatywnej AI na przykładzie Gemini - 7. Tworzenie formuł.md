@@ -3,57 +3,52 @@
 # 💡 Diagram
 
 ```mermaid
-graph TD
-    A[Gemini & Google Sheets] --> B[Wprowadzenie]
-    A --> C[Problem: Analiza Danych Sprzedażowych]
-    A --> D[Rozwiązanie z Gemini]
-    A --> E[Praktyczny Przykład]
-    A --> F[Podsumowanie i Eksperymentowanie]
-    A --> G[Konkluzja]
-
-    B --> B1[Wsparcie Gemini dla Arkuszy]
-    B --> B2[Analiza Danych Sprzedażowych]
-    B --> B3[Identyfikacja Kluczowych Informacji]
-
-    C --> C1[Rozbudowany Arkusz Google Sheets]
-    C --> C2[Tysiące Rekordów]
-    C --> C3[Cel: Identyfikacja Dni z Zyskiem > 3000 zł]
-    C --> C4[Zrozumienie Częstotliwości i Czynników]
-
-    D --> D1[Dwa Podejścia]
-    D --> D2[Podejście 1: Przesłanie Arkusza]
-    D --> D3[Podejście 2: Zapytanie o Instrukcję (Wybrane)]
-
-    D2 --> D2a[Zaleta: Precyzyjne Wskazówki]
-    D2 --> D2b[Wada: Obawy o Prywatność Danych]
-
-    D3 --> D3a[Zaleta: Ochrona Prywatności]
-    D3 --> D3b[Skupienie Materiału na Podejściu 2]
-
-    E --> E1[Zapytanie 1: Wyszukiwanie Dat]
-    E --> E2[Zapytanie 2: Wizualne Oznaczanie]
-
-    E1 --> E1a[Prompt: Jak znaleźć daty z zyskiem > 3000 zł?]
-    E1 --> E1b[Odpowiedź Gemini: Propozycja Metod]
-    E1 --> E1c[Wybór Metody przez Użytkownika]
-
-    E2 --> E2a[Prompt: Jak wizualnie oznaczyć daty kolorem?]
-    E2 --> E2b[Odpowiedź Gemini: Precyzyjna Instrukcja]
-    E2 --> E2c[Wyróżnienie Komórek Kolorem]
-
-    F --> F1[Usprawnienie Pracy z Arkuszami]
-    F --> F2[Wskazówki i Sugestie]
-    F --> F3[Wykorzystanie Bez Udostępniania Danych]
-    F --> F4[Zachęta do Eksperymentowania]
-    F --> F5[Opisz Arkusz i Cel AI]
-    F --> F6[Pozwól Gemini Wskazać Metody]
-
-    G --> G1[Wartościowe Narzędzie]
-    G --> G2[Efektywne Wydobywanie Informacji]
-    G --> G3[Wizualizacja Wyników]
-    G --> G4[Przyspieszenie Analizy Danych]
-    G --> G5[Zrozumienie Złożonych Danych]
-    G --> G6[Umiejętności Jutra AI - Projekt Edukacyjny]
+mindmap
+  root((Gemini i Arkusze Kalkulacyjne))
+    Problem Analiza Danych
+      Scenariusz Arkusz Google
+        Dane sprzedazowe
+        Tysiace rekordow
+      Cel Identyfikacja Dni
+        Zysk > 3000 zl
+      Dodatkowe Cele
+        Liczba dni
+        Czynniki wysokiego zysku
+    Dwa Sposoby Uzycia Gemini
+      Przesylanie Arkusza
+        Dostep do Danych
+        Precyzyjne Instrukcje
+        Prywatnosc Wada
+      Zapytanie o Instrukcje
+        Bez Udostepniania Danych
+        Ogolne Wskazowki
+        Kontrola Danych
+        Prywatnosc Zaleta
+        Instrukcje Ogolne Wada
+        Prezentowane w Filmie
+    Demonstracja Gemini Advanced
+      Krok 1 Prompt 1
+        Analityk Danych
+        Dane Sprzedazowe
+        Zysk > 3000 zl
+        Arkusze Google
+      Krok 2 Odpowiedz Gemini
+        Kilka Sposobow
+        Wybór Metody
+      Krok 3 Prompt 2
+        Wizualizacja
+        Oznaczenie Kolorem
+      Krok 4 Odpowiedz Gemini
+        Instrukcje Wizualizacji
+        Kolorowanie Komorek
+    Podsumowanie i Zachęta
+      Latwa Analiza Danych
+      Szybka Analiza Danych
+      Wsparcie Wyszukiwania
+      Wsparcie Wizualizacji
+      Zachęta Opisz Arkusz i Cele
+      Umiejetnosci Jutra AI
+        Projekt Edukacyjny
 ```
 
 ___
@@ -61,94 +56,112 @@ ___
 # 🗒️ Notatka
 
 
-# Gemini i Arkusze Kalkulacyjne Google: Notatki i Podsumowanie
+# Notatki i Podsumowanie Wideo: Gemini i Arkusze Kalkulacyjne
 
 ## Wprowadzenie
 
-Niniejsze podsumowanie demonstruje, jak **Gemini** może wspierać pracę z arkuszami kalkulacyjnymi, w szczególności z Arkuszami Google.  Koncentruje się na scenariuszu, w którym użytkownik orientuje się w poszukiwanych danych, lecz potrzebuje pomocy w ich efektywnym wydobyciu lub doborze odpowiedniej formuły. Materiał przedstawia praktyczny przykład analizy danych sprzedażowych, ukazując, w jaki sposób Gemini może usprawnić identyfikację kluczowych informacji.
+Ten film demonstruje, jak **Gemini** może efektywnie wspierać korzystanie z arkuszy kalkulacyjnych, takich jak Arkusze Google. Głównym celem jest ukazanie, jak szybko i łatwo analizować dane, nawet bez zaawansowanej wiedzy o formułach i funkcjach arkuszy kalkulacyjnych.
 
-## Problem i Rozwiązanie z Wykorzystaniem Gemini
+## Problem: Analiza Danych Sprzedażowych w Arkuszach Google
 
-### Problem: Analiza Danych Sprzedażowych w Arkuszach Google
+- **Scenariusz:** Dysponujemy obszernym arkuszem Google zawierającym dane sprzedażowe (tysiące rekordów).
+- **Cel:** Sprawna identyfikacja dni, w których zysk przekroczył określoną wartość, na przykład 3000 zł.
+- **Dodatkowe Cele:**
+    - Ustalenie liczby takich dni.
+    - Zrozumienie czynników wpływających na wysoki zysk w tych dniach.
 
-- Użytkownik dysponuje **rozbudowanym arkuszem Google Sheets zawierającym dane sprzedażowe** (obejmującym tysiące rekordów).
-- Celem jest **sprawna identyfikacja dni**, w których **zysk przekroczył 3000 zł**.
-- Istnieje potrzeba zrozumienia **częstotliwości** występowania takich dni oraz **czynników**, które na nie wpływają.
+## Dwa Sposoby Wykorzystania Gemini
 
-### Dwa Podejścia do Wykorzystania Gemini
+Istnieją dwie podstawowe metody wykorzystania **Gemini** do analizy danych z arkuszy kalkulacyjnych:
 
-1. **Przesłanie Arkusza do Gemini:**
-    - Użytkownik ma możliwość **przekazania całego arkusza danych sprzedażowych** do Gemini.
-    - Może poprosić Gemini o **szczegółowe instrukcje** dotyczące procesu analizy.
-    - **Zaleta:** Gemini uzyskuje bezpośredni dostęp do danych, co umożliwia dostarczenie precyzyjnych wskazówek.
-    - **Potencjalna Wada:** Niektórzy użytkownicy mogą mieć obawy związane z udostępnianiem danych zewnętrznemu narzędziu.
+1. **Przesyłanie Arkusza Danych do Gemini:**
+    - Opcja przesłania kompletnego arkusza z danymi sprzedażowymi bezpośrednio do **Gemini**.
+    - Możliwość poproszenia **Gemini** o przeprowadzenie krok po kroku przez proces analizy.
+    - **Zaleta:** **Gemini** uzyskuje bezpośredni dostęp do danych, co umożliwia dostarczanie precyzyjnych i spersonalizowanych instrukcji.
+    - **Potencjalna Wada:** Zagadnienia związane z prywatnością i bezpieczeństwem danych – niektórzy użytkownicy mogą mieć obawy dotyczące udostępniania danych zewnętrznemu narzędziu.
 
-2. **Zapytanie o Instrukcję Bez Udostępniania Danych:**
-    - Użytkownik **nie udostępnia danych** Gemini.
-    - Zamiast tego **prosi Gemini o instrukcję**, jak samodzielnie przeprowadzić analizę w Arkuszach Google.
-    - **Zaleta:** Ochrona prywatności danych.
-    - **Prezentowane w materiale podejście:** Materiał skupia się na **drugiej opcji**, czyli uzyskaniu instrukcji bez konieczności udostępniania danych.
+2. **Zapytanie o Instrukcje Bez Udostępniania Danych:**
+    - Opcja zwrócenia się do **Gemini** o ogólne wskazówki, jak samodzielnie przeprowadzić analizę w Arkuszach Google.
+    - **Zaleta:** Większa kontrola nad danymi i ochrona prywatności, dane pozostają w arkuszu użytkownika.
+    - **Wada:** Instrukcje mogą być nieco bardziej ogólne, lecz nadal bardzo przydatne.
+    - **Ta opcja jest prezentowana w filmie.**
 
-## Praktyczny Przykład Zastosowania Gemini - Krok po Kroku
+## Demonstracja Użycia Gemini Advanced (Opcja nr 2)
 
-### Zapytanie 1: Wyszukiwanie Dat z Wysokim Zyskiem
+### Krok 1: Uruchomienie Gemini Advanced i Sformułowanie Zapytania (Promptu)
 
-- **Scenariusz:** Użytkownik wciela się w rolę analityka analizującego arkusz danych sprzedażowych z ostatniego roku.
-- **Zapytanie (prompt) do Gemini:**
-    > Jestem analitykiem analizującym arkusz danych sprzedażowych z ostatniego roku. Chciałbym szybko odnaleźć daty, w których zysk przekroczył 3000 zł. Jak mogę to zrobić w Arkuszach Google?
-- **Odpowiedź Gemini:** Gemini **proponuje szereg metod** na zlokalizowanie odpowiednich komórek w Arkuszach Google. Użytkownik może wybrać sposób, który uzna za najprostszy lub najbardziej adekwatny.
+- Użytkownik korzysta z **Gemini Advanced**.
+- Wprowadza **prompt** (zapytanie) do **Gemini**, wcielając się w rolę analityka analizującego arkusz danych sprzedażowych z ostatniego roku.
+- **Prompt 1:**
+    > Jestem analitykiem i analizuję arkusz z danymi sprzedażowymi z ostatniego roku. Chciałbym szybko odnaleźć daty, w których zysk przekroczył 3000 zł. Jak mogę to zrobić w Arkuszach Google?
 
-### Zapytanie 2: Wizualne Oznaczanie Danych
+### Krok 2: Odpowiedź Gemini i Wybór Metody
 
-- **Kolejne zadanie:** Użytkownik pragnie **wizualnie wyróżnić** dni z wysokim zyskiem, aby ułatwić ich identyfikację.
-- **Zapytanie (prompt) do Gemini:**
-    > Jak mogę wizualnie oznaczyć te daty w arkuszu, używając koloru?
-- **Odpowiedź Gemini:** Gemini dostarcza **precyzyjną instrukcję**, jak wizualnie zmodyfikować arkusz, aby **wyróżnić komórki z wysokim zyskiem za pomocą koloru**. Dzięki temu użytkownik może łatwo zlokalizować i oznaczyć interesujące go dane.
+- **Gemini** proponuje **kilka sposobów** na zlokalizowanie komórek spełniających kryteria (zysku powyżej 3000 zł).
+- Użytkownik może wybrać metodę, która wydaje się najprostsza lub najbardziej odpowiednia do jego potrzeb.
 
-## Podsumowanie i Zachęta do Eksperymentowania
+### Krok 3: Kolejne Zapytanie o Wizualizację Danych
 
-- **Gemini usprawnia pracę z Arkuszami Google** poprzez dostarczanie wskazówek i sugestii dotyczących analizy i wizualizacji danych.
-- Możliwe jest jego wykorzystanie **bez udostępniania poufnych danych**, poprzez prośbę o ogólne instrukcje.
-- **Zachęcamy do eksperymentowania z Gemini** na własnych arkuszach danych.
-    - **Opisz swój arkusz i cel analizy** dla generatywnej AI.
-    - **Pozwól Gemini wskazać optymalne metody osiągnięcia zamierzonego celu** w arkuszu kalkulacyjnym.
+- Użytkownik pragnie **wizualnie wyróżnić** znalezione daty w arkuszu, aby ułatwić ich identyfikację.
+- Formułuje **kolejny prompt** dotyczący wizualizacji.
+- **Prompt 2:**
+    > Jak mogę wizualnie oznaczyć te daty kolorem w arkuszu?
 
-## Konkluzja
+### Krok 4: Odpowiedź Gemini z Instrukcjami Wizualizacji
 
-Materiał demonstruje praktyczne zastosowanie Gemini w analizie danych w Arkuszach Google.  Ukazuje, że Gemini stanowi wartościowe narzędzie dla osób pracujących z danymi, wspomagając efektywne wydobywanie informacji i wizualizację wyników, nawet bez zaawansowanej wiedzy o formułach arkuszy kalkulacyjnych. Narzędzie to może znacząco przyspieszyć proces analizy danych i ułatwić zrozumienie złożonych zbiorów informacji.
+- **Gemini** dostarcza **szczegółowe instrukcje**, jak wizualnie zmodyfikować arkusz.
+- Te instrukcje umożliwiają łatwe odnalezienie i zaznaczenie istotnych danych poprzez **pokolorowanie komórek**.
 
----
+## Podsumowanie i Zachęta do Działania
 
-**Umiejętności Jutra AI** - Projekt edukacyjny wspierany przez Google, SGH i Ministerstwo Cyfryzacji.
+- **Gemini** umożliwia **łatwą i szybką analizę danych** w arkuszach kalkulacyjnych, nawet dla osób bez specjalistycznej wiedzy.
+- Możliwe jest uzyskanie wsparcia w **wyszukiwaniu konkretnych danych** oraz ich **wizualizacji**.
+- **Zachęta:** Użytkowników zachęca się do opisywania swoich arkuszy i celów analizy generatywnej AI (**Gemini**), aby otrzymać wskazówki, jak lepiej zrozumieć posiadane dane.
+- **Umiejętności Jutra AI:** Projekt edukacyjny (logo widoczne na końcu) związany z rozwojem umiejętności cyfrowych i AI, wspierany przez Google, SGH i Ministerstwo Cyfryzacji.
+
+## Kluczowe Punkty Podsumowania
+
+- **Gemini** wspomaga analizę arkuszy kalkulacyjnych.
+- Dwa sposoby użycia: z przesłaniem danych lub bez.
+- Demonstracja na przykładzie wyszukiwania dni z zyskiem powyżej 3000 zł i wizualizacji tych dni.
+- **Gemini** oferuje instrukcje krok po kroku.
+- Upraszcza analizę danych dla osób bez specjalistycznej wiedzy.
+- Zachęta do wykorzystania **Gemini** w celu lepszego zrozumienia własnych danych w arkuszach.
 
 
 ___
 
 # 🔉 Transcript
 File: Sekcja 2. Pomysły na podstawowe wykorzystanie generatywnej AI na przykładzie Gemini - 7. Tworzenie formuł.mp4<br>
-[00:00:05] Teraz dowiesz się, jak Gemini może ci pomóc w korzystaniu z arkuszy kalkulacyjnych. Na przykład, gdy wiesz jakich danych szukasz, ale nie wiesz jak je efektywnie wyciągnąć lub po prostu jaką formułę wykorzystać.
-[00:00:17] Wyobraź sobie, że masz przed sobą arkusz Google z danymi sprzedażowymi, ale lista jest bardzo długa, kilka tysięcy rekordów. A my chcemy po prostu szybko zidentyfikować dni, w których zysk przekroczył, na przykład 3000 zł.
-[00:00:30] Aby móc zrozumieć ile takich dni było, a potem postarać się lepiej zrozumieć co na to wpłynęło.
-[00:00:36] Możemy to zadanie wykonać na dwa sposoby. Albo wrzucając do Gemini cały arkusz z danymi sprzedażowymi i poprosić go o przeprowadzenie nas przez cały proces krok po kroku, jak to zrobić.
-[00:00:47] Lub, jeśli nie chcemy wrzucać naszych danych sprzedażowych do Gemini, możemy poprosić o instrukcję, jak samodzielnie to zrobić.
+[00:00:05] Teraz dowiesz się jak Gemini może ci pomóc w korzystaniu z arkuszy kalkulacyjnych.
+[00:00:10] Na przykład gdy wiesz jakich danych szukasz, ale nie wiesz jak je efektywnie wyciągnąć lub po prostu jaką formułę wykorzystać.
+[00:00:17] Wyobraź sobie, że masz przed sobą arkusz Google z danymi sprzedażowymi, ale lista jest bardzo długa, kilka tysięcy rekordów.
+[00:00:24] A my chcemy po prostu szybko zidentyfikować dni, w których zysk przekroczył, na przykład 3000 zł.
+[00:00:30] Albo mieć zrozumienie ile takich dni było, a potem postarać się lepiej zrozumieć co na to wpłynęło.
+[00:00:36] Możemy to zadanie wykonać na dwa sposoby.
+[00:00:38] Albo wrzucając do Gemini cały arkusz z danymi sprzedażowymi i poprosić go o przeprowadzenie nas przez cały proces krok po kroku jak to zrobić.
+[00:00:47] Lub, jeśli nie chcemy wrzucać naszych danych sprzedażowych do Gemini, możemy poprosić o instrukcję jak samodzielnie to zrobić.
 [00:00:55] Teraz sprawdźmy tą drugą opcję.
-[00:00:57] (The screen shows the Gemini Advanced interface. On the left side, there is a menu with options like "New Chat," "Recent," and "Settings." In the center, a text field displays "Hello, Specialist!")
+[00:00:57] (Ekran: Na ekranie laptopa widoczna jest strona internetowa Gemini Advanced. Po lewej stronie ekranu znajduje się menu z opcjami "Nowy czat", "Ostatnie", "Gemy", "Menedżer Gemów", "Pomoc", "Aktywność", "Ustawienia". Po prawej stronie widnieje napis "Cześć, Specjalisto", a pod nim pole tekstowe z możliwością wpisania wiadomości.)
 [00:00:58] Jesteś analitykiem i przeglądasz arkusz z danymi sprzedażowymi z ostatniego roku.
-[01:04] (The screen shows the Gemini Advanced interface. On the left side, there is a menu with options like "New Chat," "Recent," and "Settings." In the center, a text field displays "Hello, Specialist!")
-[01:05] Chciałbym szybko znaleźć daty, w których zysk osiągnął powyżej 3000 zł.
-[01:10] Zaproponuj, jak mogę to zrobić w arkuszach Google.
-[01:15] (The screen shows the Gemini Advanced interface. On the left side, there is a menu with options like "New Chat," "Recent," and "Settings." In the center, a text field displays "Hello, Specialist!" The text box is empty.)
-[01:15] Teraz jak widzimy, Gemini podał nam kilka sposobów na znalezienie odpowiednich komórek i możecie wybrać taki, które najbardziej wam odpowiada albo wydaje się po prostu najprostsze.
-[01:26] (The screen shows the Gemini Advanced interface. On the left side, there is a menu with options like "New Chat," "Recent," and "Settings." In the center, a text field displays "Hello, Specialist!")
-[01:27] A co jeśli chciałbym zrobić coś innego? Na przykład wizualnie oznaczyć i wyróżnić komórki z tym wyższym zyskiem?
-[01:34] Mogę wpisać kolejny prompt.
-[01:36] Jak mogę wizualnie oznaczyć te daty w arkuszu kolorem?
-[01:41] (The screen shows the Gemini Advanced interface. On the left side, there is a menu with options like "New Chat," "Recent," and "Settings." In the center, a text field displays "Hello, Specialist!" The text box is empty.)
-[01:41] No i otrzymałem dokładną instrukcję, jak wizualnie dostosować arkusz, dzięki czemu będę mógł w łatwy sposób odnaleźć interesujące mnie dane i zaznaczyć konkretne komórki.
-[01:52] Co dalej? Na pewno macie jakieś arkusz albo dane, które chcielibyście lepiej zrozumieć.
-[01:57] Opiszcie generatywnej AI, jak ten arkusz wygląda i co chcielibyście zrozumieć i niech wskaże wam jak możecie to zrobić.
-[02:04] (The screen shows the logo of "Umiejętności Jutra AI," with logos of Google, SGH, and Ministerstwo Cyfryzacji.)
+[00:01:04] (Ekran: Na ekranie laptopa widoczna jest strona internetowa Gemini Advanced. Po lewej stronie ekranu znajduje się menu z opcjami "Nowy czat", "Ostatnie", "Gemy", "Menedżer Gemów", "Pomoc", "Aktywność", "Ustawienia". Po prawej stronie widnieje napis "Cześć, Specjalisto", a pod nim pole tekstowe z możliwością wpisania wiadomości.)
+[00:01:05] Chciałbym szybko znaleźć daty, w których zysk osiągnął powyżej 3000 zł.
+[00:01:10] Zaproponuj, jak mogę to zrobić w arkuszach Google.
+[00:01:13] (Ekran: Na ekranie laptopa widoczna jest strona internetowa Gemini Advanced. Po lewej stronie ekranu znajduje się menu z opcjami "Nowy czat", "Ostatnie", "Gemy", "Menedżer Gemów", "Pomoc", "Aktywność", "Ustawienia". Po prawej stronie widnieje napis "Cześć, Specjalisto", a pod nim pole tekstowe z możliwością wpisania wiadomości, oraz wysłana wiadomość.)
+[00:01:15] Teraz jak widzimy Gemini podał nam kilka sposobów na znalezienie odpowiednich komórek.
+[00:01:20] I możecie wybrać takie, które najbardziej wam odpowiada albo wydaje się po prostu najprostsze.
+[00:01:26] (Ekran: Na ekranie laptopa widoczna jest strona internetowa Gemini Advanced. Po lewej stronie ekranu znajduje się menu z opcjami "Nowy czat", "Ostatnie", "Gemy", "Menedżer Gemów", "Pomoc", "Aktywność", "Ustawienia". Po prawej stronie widnieją instrukcje od Gemini.)
+[00:01:27] A co jeśli chciałbym zrobić coś innego?
+[00:01:29] Na przykład wizualnie oznaczyć i wyróżnić komórki z tym wyższym zyskiem.
+[00:01:34] Mogę wpisać kolejny prompt.
+[00:01:36] Jak mogę wizualnie oznaczyć te daty w arkuszu kolorem?
+[00:01:41] (Ekran: Na ekranie laptopa widoczna jest strona internetowa Gemini Advanced. Po lewej stronie ekranu znajduje się menu z opcjami "Nowy czat", "Ostatnie", "Gemy", "Menedżer Gemów", "Pomoc", "Aktywność", "Ustawienia". Po prawej stronie widnieją instrukcje od Gemini.)
+[00:01:41] No i otrzymałem dokładną instrukcję jak wizualnie dostosować arkusz, dzięki czemu będę mógł w łatwy sposób odnaleźć interesujące mnie dane i zaznaczyć konkretne komórki.
+[00:01:52] Co dalej?
+[00:01:53] Na pewno macie jakiś arkusz albo dane, które chcielibyście lepiej zrozumieć.
+[00:01:57] Opiszcie generatywnej AI jak ten arkusz wygląda i co chcielibyście zrozumieć i niech wskaże wam jak możecie to zrobić.
+[00:02:03] (Ekran: Logo "Umiejętności Jutra AI" z logotypami Google, SGH i Ministerstwa Cyfryzacji.)
 
 ___
 # 🏷️ Tags
-#gemini #arkusze_google #google_sheets #arkusze_kalkulacyjne #dane_sprzedażowe #analiza_danych #wizualizacja_danych #identyfikacja_danych #instrukcje #krok_po_kroku #wysoki_zysk #oznaczanie_danych #prywatność_danych #prompt #analityk #metody_analizy #wizualne_oznaczanie #eksperymentowanie #optymalne_metody #narzędzie_ai #efektywne_wydobywanie #złożone_informacje #umiejętności_jutra_ai #ministerstwo_cyfryzacji #sgh #edukacja_ai #formuły_arkuszy_kalkulacyjnych
+#Gemini #arkusze-kalkulacyjne #arkusze_google #analiza-danych #dane-sprzedażowe #zysk #wizualizacja-danych #instrukcje #prompt #Gemini_Advanced #analityk #formuły #funkcje #prywatność #bezpieczeństwo_danych #wskazówki #krok-po-kroku #wyszukiwanie-danych #kolorowanie-komórek #Umiejętności_Jutra_AI #AI #sztuczna_inteligencja #uczenie_maszynowe #analiza_generatywna_AI #prompt_engineering
