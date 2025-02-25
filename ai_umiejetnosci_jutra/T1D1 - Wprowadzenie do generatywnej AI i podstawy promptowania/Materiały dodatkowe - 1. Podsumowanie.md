@@ -107,7 +107,7 @@ To podsumowanie kursu koncentruje się na kluczowych aspektach GenAI, LLM i inż
 ___
 
 # 🔉 Transcript
-
+File: Materiały dodatkowe - 1. Podsumowanie.png<br>
 **Podsumowanie Kursu**
 
 Below you will find key information and tips from the individual lessons of the course. We have gathered the most important points that will help you understand the topics discussed and apply them in practice.  Thanks to this summary, you will more easily remember the main principles and quickly implement the acquired knowledge in your projects.
