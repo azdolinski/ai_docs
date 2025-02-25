@@ -4,47 +4,56 @@
 
 ```mermaid
 mindmap
-  root((Efektywne Wykorzystanie AI i Techniki Promptowania))
+  root((Zaawansowane Techniki Promptowania Gen AI))
     Wprowadzenie
-      c[Wiele osób nie zna narzędzi AI (np. Jenny AI)]
-      d[Mało osób używa AI regularnie w pracy]
-      e[Skupienie na zaawansowanych technikach promptowania kluczowe]
-    Prompt Chaining (Ciąg Podpowiedzi)
-      a[Definicja: Wynik promptu jako kontekst dla kolejnego]
-      b[Rozbija złożone problemy na mniejsze kroki]
-      Kroki Utworzenia
-        ba[1. Podziel zadanie na kroki]
-        bb[2. Stwórz prompt dla każdego kroku]
-        bc[3. Użyj wyjścia z promptu jako wejścia do następnego]
-      Efektywne Wykorzystanie
-        ca[Punkty kontrolne: Podsumowanie celu]
-        cb[Praca z podzadaniami: Mniejsze podzadania]
-        cc[Podsumuj i przekieruj: Korekta kursu]
-    Chain of Thought (Łańcuch Myśli)
-      a[Definicja: Sekwencja działań w jednym rozbudowanym promtpie]
-      b[Model samodzielnie przechodzi kroki]
-      c[Przydatne w zadaniach wymagających większego wysiłku intelektualnego]
-      d[Vs Prompt Chaining: Jeden rozbudowany prompt vs Seria promptów]
-    Generowanie Obrazów z AI
-      a[Kluczowe Elementy Promptu]
-        aa[Precyzyjny opis]
-        ab[Styl obrazka (np. fotorealistyczny, akwarelowy)]
-        ac[Kolorystyka (np. czarno-biała, pastelowa)]
-        ad[Parametry (np. proporcje 16:9)]
-        ae[Perspektywa (np. z lotu ptaka, z poziomu oczu)]
-      b[Dodatkowe Możliwości Generatywnej AI]
-        ba[Tabele]
-        bb[Prezentacje]
-        bc[Maile 📧]
-        bd[Arkusze kalkulacyjne]
-    Podsumowanie i Zakończenie
-      a[Generatywna AI - potężne narzędzie]
-      b[Umiejętność promptowania jest kluczowa]
-        ba[Prompt Chaining]
-        bb[Chain of Thought]
-      c[Eksperymentowanie i iteracja z AI]
-      d[Użytkownik musi zrobić pierwszy krok (napisać prompt)]
-      e[Dostępny pięcioetapowy schemat promptowania do pobrania]
+      Malo osob stosuje zaawansowane techniki
+      Skupienie na zaawansowanych technikach kluczowe
+    Prompt Chaining
+      Definicja
+        Wykorzystanie wyniku prompta jako kontekstu
+        Rozwiazywanie zlozonych problemow krok po kroku
+      Kroki Stworzenia
+        Podziel zadanie na kroki
+        Stworz prompt dla kazdego kroku
+        Uzyj wynikow jako danych wejsciowych
+      Efektywniejsze Wykorzystanie
+        Punkty Kontrolne
+          Podsumowanie celu zapytania
+        Podzadania
+          Mniejsze konkretne czesci
+        Podsumowanie i Przekierowanie
+          Skieruj z powrotem na wlasciwe tory
+    Chain of Thought
+      Definicja
+        Sekwencja w jednym prompcie
+        Tok rozumowania w promcie
+      Korzysci
+        Poprawna odpowiedz
+        Zadania intelektualne
+    Prompt do Obrazkow
+      Kluczowe Elementy
+        Precyzyjny Opis
+        Styl
+          Fotorealistyczny
+          Akwarelowy
+        Kolorystyka
+          Czarno-biala
+          Pastelowa
+        Parametry
+          Proporcje 16-9
+        Perspektywa
+          Z lotu ptaka
+          Z poziomu oczu
+    Generatywna AI Mozliwosci
+      Wiecej niz Tekst
+        Tabele
+        Prezentacje
+        Maile
+        Arkusze Kalkulacyjne
+      Podsumowanie i Zacheta
+        Piecioetapowy Schemat Promptowania
+        Inicjatywa Uzytkownika
+        Eksperymentowanie
 ```
 
 ___
@@ -52,142 +61,173 @@ ___
 # 🗒️ Notatka
 
 
-# Szczegółowe Notatki i Podsumowanie Wideo o AI
+# Notatki z lekcji o zaawansowanych technikach promptowania Gen AI
 
-## Wprowadzenie
+## Wprowadzenie do Gen AI i Promptowania
 
-Prelegent rozpoczyna prezentację, zwracając uwagę, że wiele osób w branży może nie być zaznajomionych z narzędziami AI, takimi jak Jenny AI.  Zauważa, że choć niektórzy próbowali pisać proste `prompty`, regularne i zaawansowane wykorzystanie AI w pracy jest wciąż rzadkością. Prelegent zachęca do skupienia się na zaawansowanych technikach `promptowania`, aby osiągnąć mistrzostwo w korzystaniu z AI.
+* Większość osób w branży może nie słyszała o Gen AI.
+* Wiele osób próbowało pisać proste prompty, na przykład do maili.
+* **Bardzo niewiele osób regularnie wykorzystuje AI w pracy i stosuje zaawansowane techniki promptowania.**
+* Skupienie się na zaawansowanych technikach promptowania jest kluczowe, aby w pełni wykorzystać potencjał AI.
 
-## `Prompt Chaining` - Ciąg Podpowiedzi
+## Prompt Chaining - Łańcuch Podpowiedzi
 
-### Definicja i Zasada Działania
+### Definicja `Prompt Chaining`
 
-- **`Prompt chaining`**, czyli **ciąg podpowiedzi**, to technika wykorzystująca wynik jednego `promptu` jako kontekst dla kolejnego polecenia.
-- Narzędzie AI jest prowadzone przez serię połączonych `promptów`, co umożliwia dodawanie kolejnych zadań i warstw kontekstowych.
-- Technika ta pomaga modelowi AI w rozwiązywaniu **złożonych problemów** poprzez rozbicie ich na mniejsze, łatwiejsze do zarządzania kroki.
+* **`Prompt chaining`** (ciąg podpowiedzi) - wykorzystanie wyniku jednego prompta jako kontekstu w kolejnym poleceniu dla modelu AI.
+* Pomaga modelowi rozwiązywać złożone problemy poprzez podzielenie ich na mniejsze, łatwiejsze do zarządzania kroki.
+* Narzędzie AI jest prowadzone przez serię połączonych promptów, z dodawaniem kolejnych zadań i warstw kontekstowych.
+* Metoda ta rozbija skomplikowane problemy na mniejsze części i umożliwia ich rozwiązanie krok po kroku.
 
-### Jak Utworzyć Ciąg Podpowiedzi - 3 Kroki
+### Kroki do Stworzenia `Prompt Chaining`
 
-1. **Podziel złożone zadanie na logiczne kroki.**
-2. **Stwórz `prompt` dla każdego kroku.**
-3. **Wykorzystaj dane wyjściowe z jednego `promptu` jako dane wejściowe do następnego**, powtarzając proces aż do ukończenia zadania.
+1. **Podziel zadanie na logiczne kroki.**
+2. **Stwórz prompt dla każdego kroku.**
+3. **Użyj wyników jako danych wejściowych do kolejnych promptów.** - Iteruj proces aż do ukończenia zadania.
 
-### Efektywniejsze Wykorzystanie `Prompt Chainingu` - Wskazówki
+### Efektywniejsze Wykorzystanie `Prompt Chaining`
 
-- **Używaj punktów kontrolnych:** Poproś model o krótkie podsumowanie ogólnego celu zapytania.
-- **Pracuj z podzadaniami:** Rozdziel złożone zadania na jeszcze mniejsze podzadania.
-- **Podsumowuj i przekierowuj:** Jeśli model oddala się od celu, podsumuj dotychczasowe informacje i skieruj go z powrotem na właściwe tory w kolejnym `prompcie`.
+* **Używaj punktów kontrolnych:**
+    * Poproś model o krótkie podsumowanie ogólnego celu zapytania, aby upewnić się, że pozostaje na właściwym kursie.
+* **Pracuj nad podzadaniami:**
+    * Podziel złożone zadania na mniejsze, bardziej konkretne części.
+    * Traktuj każde podzadanie jako odrębny etap, zanim przejdziesz do następnego kroku.
+* **Podsumuj i przekieruj:**
+    * Jeśli model zaczyna odbiegać od zamierzonego celu, podsumuj kluczowe informacje i skieruj go z powrotem na właściwe tory.
 
-## `Chain of Thought` - Łańcuch Myśli
+## Chain of Thought - Łańcuch Myśli
 
-### Definicja i Porównanie z `Prompt Chainingiem`
+### Definicja `Chain of Thought`
 
-- **`Chain of thought`**, czyli **łańcuch myśli**, to technika, w której cała sekwencja działań potrzebnych do rozwiązania problemu jest zawarta w **jednym, bardziej rozbudowanym `prompcie`.**
-- W przeciwieństwie do serii oddzielnych `promptów` (jak w `prompt chaining`), `chain of thought` **zakłada, że model zastosuje podobny tok rozumowania** i samodzielnie przejdzie przez logiczne kroki w ramach jednego zapytania.
-- Ta technika jest szczególnie przydatna w zadaniach wymagających **większego wysiłku intelektualnego**.
+* **`Chain of thought`** (łańcuch myśli) - sekwencja działań realizowana w ramach jednego, bardziej rozbudowanego prompta.
+* Polega na przejściu przez sekwencję logicznych kroków w obrębie jednego zapytania, zamiast formułowania osobnych zapytań dla każdego kroku.
+* W promcie przedstawiamy kroki i tok rozumowania potrzebny do rozwiązania podobnego problemu.
+* Model ma zastosować analogiczny tok rozumowania i obsłużyć wszystkie kroki w ramach jednego, kompleksowego prompta.
 
-### Zastosowanie Technik `Promptowania`
+### Korzyści `Chain of Thought`
 
-- Zarówno `prompt chaining`, jak i `chain of thought` **zwiększają szansę na uzyskanie prawidłowej odpowiedzi** w przypadku złożonych zadań.
-- Są szczególnie przydatne w zadaniach wymagających **większego wysiłku intelektualnego**.
+* **Zwiększa szansę na uzyskanie poprawnej i satysfakcjonującej odpowiedzi.**
+* **Szczególnie przydatna w zadaniach wymagających większego zaangażowania intelektualnego i logicznego myślenia.**
 
-## Generowanie Obrazów z AI - Jak Stworzyć Dobry `Prompt`
+## Jak Stworzyć Dobry Prompt pod Obrazek? 🖼️
 
-### Kluczowe Elementy Dobrego `Promptu` do Obrazka
+### Kluczowe Elementy Efektywnego Promptu Obrazkowego
 
-1. **Precyzyjny opis:** Jasno określ, co chcesz uzyskać.
-2. **Styl obrazka:** Określ preferowany styl, np. `fotorealistyczny`, `akwarelowy`.
-3. **Kolorystyka:** Wybierz preferowaną kolorystykę, np. `czarno-biała`, `pastelowa`.
-4. **Parametry:** Ustal dodatkowe parametry, np. `proporcje obrazu 16:9`.
-5. **Perspektywa:** Zdefiniuj perspektywę, z jakiej ma być przedstawiony obraz, np. `z lotu ptaka`, `z poziomu oczu`.
+* **Precyzyjny opis:** Jasno i szczegółowo określ, co chcesz uzyskać na obrazie.
+* **STYL:**  Określ preferowany styl graficzny, np. fotorealistyczny, akwarelowy, malarski.
+* **KOLORYSTYKA:** Zdefiniuj paletę kolorów, np. czarno-biała, pastelowa, jaskrawa.
+* **PARAMETRY:** Ustal parametry techniczne, np. proporcje obrazu 16:9, rozdzielczość.
+* **PERSPEKTYWA:** Określ punkt widzenia, np. z lotu ptaka, z poziomu oczu, zbliżenie.
 
-### Dodatkowe Możliwości Generatywnej AI
+## Generatywna AI - Dodatkowe Możliwości i Podsumowanie
 
-- Generatywna AI potrafi tworzyć nie tylko obrazy, ale także:
-    - **Tabele**
-    - **Prezentacje**
-    - **Maile** 📧
-    - **Arkusze kalkulacyjne**
-- Więcej informacji na temat kreatywnego wykorzystania AI zostanie przedstawione w dalszej części programu.
+* Generatywna AI potrafi generować znacznie więcej niż tylko tekst, w tym:
+    * Tabele
+    * Prezentacje
+    * Maile
+    * Arkusze kalkulacyjne
+* Więcej informacji o kreatywnych zastosowaniach zostanie omówionych w dalszej części programu.
 
-## Podsumowanie i Zakończenie
+### Podsumowanie i Zachęta do Działania
 
-- Generatywna sztuczna inteligencja oferuje szerokie możliwości i stanowi potężne narzędzie w pracy.
-- Kluczem do efektywnego wykorzystania AI jest **umiejętność tworzenia odpowiednich `promptów`**, w tym zaawansowanych technik takich jak `prompt chaining` i `chain of thought`.
-- Prelegent zachęca do **eksperymentowania i iterowania** z AI, podkreślając, że to użytkownik musi wykonać **pierwszy krok** i napisać pierwszy `prompt`.
-- Dostępny jest **pięcioetapowy schemat `promptowania`** do pobrania, który może pomóc w rozpoczęciu pracy z AI.
+* Wiedza o zaawansowanych technikach promptowania może początkowo wydawać się przytłaczająca.
+* Dostępny jest pięcioetapowy schemat promptowania do pobrania, który ułatwi rozpoczęcie eksperymentów.
+* **Generatywna sztuczna inteligencja sama nie podejmie inicjatywy i nie napisze pierwszego prompta.**
+* Inicjatywa i chęć działania leżą po stronie użytkownika.
+* Zachęcamy do aktywnego eksperymentowania, odkrywania nowych możliwości i iteracyjnego doskonalenia promptów w pracy z generatywną sztuczną inteligencją.
 
----
+## Podsumowanie Lekcji
 
-**Podsumowanie:**
-
-Prezentacja wideo koncentruje się na efektywnym wykorzystaniu sztucznej inteligencji, ze szczególnym uwzględnieniem `promptowania`. Prelegent omawia dwie zaawansowane techniki: **`prompt chaining` (ciąg podpowiedzi)** i **`chain of thought` (łańcuch myśli)**. `Prompt chaining` polega na dzieleniu złożonych zadań na mniejsze etapy i wykorzystywaniu wyników jednego `promptu` jako kontekstu dla kolejnego. `Chain of thought` to technika, w której cała logika rozwiązania problemu jest zawarta w jednym, rozbudowanym `prompcie`. W dalszej części prezentacji omówiono kluczowe elementy skutecznego `promptowania` przy generowaniu obrazów, takie jak precyzyjny opis, styl, kolorystyka, parametry i perspektywa. Podsumowując, prelegent podkreśla szerokie możliwości generatywnej AI, zachęca do eksperymentowania i przypomina, że inicjatywa w korzystaniu z AI należy do użytkownika. Dostępny schemat `promptowania` ma ułatwić rozpoczęcie pracy z tą technologią.
+Lekcja koncentruje się na zaawansowanych technikach promptowania w Gen AI, wykraczających poza podstawowe polecenia. Przedstawiono dwie główne techniki: **`prompt chaining`** (ciąg podpowiedzi) i **`chain of thought`** (łańcuch myśli). `Prompt chaining` polega na dzieleniu złożonych zadań na mniejsze kroki i wykorzystywaniu wyników jednego prompta jako kontekstu dla kolejnego. `Chain of thought` to technika, w której cały proces rozwiązywania problemu jest zawarty w jednym, rozbudowanym promcie, naśladując tok rozumowania. Dodatkowo, lekcja omawia kluczowe elementy skutecznego promptowania przy generowaniu obrazów, takie jak precyzyjny opis, styl, kolorystyka, parametry i perspektywa. Podkreślono, że aktywne eksperymentowanie i inicjatywa użytkownika są kluczowe dla efektywnego wykorzystania potencjału generatywnej AI.
 
 
 ___
 
 # 🔉 Transcript
 File: Sekcja 1. Wprowadzenie do generatywnej AI oraz jak promptować - 2. Metody promptowania.mp4<br>
-[00:00:05] Speaker: Większość osób z waszej branży, otoczenia, czy nawet miejsca pracy może nawet nie słyszało o Jenny AI.
-[00:00:12] Speaker: Wiele z nich spróbowało napisać jakiegoś prompta i użyć tego do maila.
-[00:00:19] Speaker: Bardzo mało osób jednak jeszcze używa AI regularnie w pracy, a jeszcze mniej stosuje zaawansowane techniki promptowania, o których zaraz opowiem.
-[00:00:31] Speaker: Jeśli chcecie być najlepsi w korzystaniu z AI, to teraz warto się skupić.
-[00:00:36] Speaker: Jedną z technik jest wykorzystanie wyniku jednego prompta jako kontekst w kolejnym poleceniu dla modelu.
-[00:00:44] Speaker: Nazywamy to prompt chainingiem, inaczej ciągiem podpowiedzi.
-[00:00:44] Screen: (A slide is displayed. The title reads "Prompt chaining - ciąg podpowiedzi". Two bullet points are listed: "Wykorzystanie wyniku jednego prompta jako kontekstu w kolejnym poleceniu" and "Pomaga modelowi rozwiązywać złożone problemy, dzieląc je na mniejsze kroki")
-[00:00:50] Speaker: Prompt chaining prowadzi narzędzie AI przez serię połączonych ze sobą promptów, dodając kolejne zadania i warstwy kontekstowe.
-[00:01:02] Speaker: Połączone prompty sprawiają, że pomagamy modelowi rozwiązać skomplikowane problemy, rozbijając je na mniejsze części.
-[00:01:11] Speaker: I rozwiązując je później krok po kroku.
-[00:01:14] Speaker: Taki ciąg podpowiedzi tworzy się w trzech krokach.
-[00:01:19] Speaker: Zacznij od podzielenia złożonego zadania na logiczne kroki.
-[00:01:24] Speaker: Skonstruuj prompt do każdego kroku i użyj danych wyjściowych z jednego promptu jako danych wejściowych do następnego, iterując po drodze, aż do ukończenia zadania.
-[00:01:40] Speaker: Zróbmy to razem.
-[00:01:40] Speaker: Chain prompting to świetna technika na bardziej zaawansowane problemy.
-[00:01:46] Speaker: Oto parę podpowiedzi ode mnie na temat tego, jak wycisnąć z chain promptingu więcej.
-[00:01:53] Speaker: Po pierwsze, zdefiniuj sobie punkty kontrolne, czyli określ proś model o krótkie podsumowanie ogólnego celu twojego pytania.
-[00:01:53] Screen: (A slide is displayed. The title reads "Jak efektywniej wykorzystać chain prompting". The first bullet point reads "Używaj punktów kontrolnych" and the second reads "Określono proś model o krótkie podsumowanie ogólnego celu")
-[00:02:05] Speaker: Po drugie, praca z podzadaniami.
-[00:02:09] Speaker: Podziel bardzo złożone zadania na jeszcze mniejsze podzadania.
-[00:02:15] Speaker: Po trzecie, podsumowanie i przekierowanie.
-[00:02:20] Speaker: Jeśli zauważysz, że model odbiega od pierwotnego celu twojego pytania, podsumuj najważniejsze informacje, które model zebrał do tej pory i przekieruj je w kolejnym prompcie z powrotem do głównego celu.
-[00:02:36] Speaker: Istnieje również technika promptowania chain of thought, łańcuch myśli, w której sekwencja, którą przed chwilą przeszliśmy, jest obsłużona jednym, bardziej rozbudowanym promptem.
-[00:02:36] Screen: (A slide is displayed. The title reads "Jak efektywniej wykorzystać chain prompting". The first bullet point reads "Podziel złożone zadania na mniejsze części. Traktuj każde podzadanie jako krótkotrwały zarin przydzielić się do następnego kroku" and the second reads "Podsumuj i przekieruj: Jeśli model odbiega od celu, podsumuj kluczowe informacje i skieruj go z powrotem do głównego celu")
-[00:02:52] Speaker: W prompcie tym podajemy kroki i pewien tok rozumowania potrzebny do rozwiązania podobnego problemu.
-[00:03:02] Speaker: Rozwiązanie tego podobnego problemu również polegało będzie na przejściu sekwencji logicznych kroków, które w poprzedniej technice wykonywaliśmy jako osobne prompty.
-[00:03:18] Speaker: W technice chain of thought zakładamy, że model zastosuje podobny tok rozumowania i obsłuży wszystkie kroki jednym promptem.
-[00:03:31] Speaker: Stosując te sposoby, zwiększamy szansę na uzyskanie prawidłowej odpowiedzi w przypadku zadań wymagających większego wysiłku intelektualnego.
-[00:03:31] Screen: (A slide is displayed. The title reads "Chain of Thought - łańcuch myśli". The first bullet point reads "Łańcuch myśli, w którym sekwencja działań jest obsłużona jednym, bardziej rozbudowanym promptem" and the second reads "Przejście przez sekwencję logicznych kroków w ramach jednego promptu, zamiast wykonywać je jako osobne zapytanie")
-[00:03:41] Speaker: Na koniec zostawiłem dla was coś specjalnego, czyli obrazy.
-[00:03:41] Screen: (A slide is displayed. The title reads "Stosując te techniki:". The first bullet point reads "Zwiększamy szansę na uzyskanie prawidłowej odpowiedzi" and the second reads "Sprawdzamy się w zadaniach wymagających większego intelektualnego")
-[00:03:46] Speaker: A dokładniej generowanie obrazów, ilustracji, czy też zdjęć do dowolnego zastosowania.
-[00:03:46] Screen: (A slide is displayed. The title reads "Jak stworzyć dobry prompt pod obrazek?". The first bullet point reads "Precyzyjny opis: Jasno określ, co chcesz uzyskać")
-[00:04:01] Speaker: Dobry prompt pod obrazek zawiera to wszystko, co już wiecie, czyli precyzyjny opis czego oczekujemy.
-[00:04:09] Speaker: Plus cztery dodatkowe rzeczy.
-[00:04:12] Speaker: Styl obrazka, na przykład chcemy, żeby nasze zdjęcie było wygenerowane jako fotorealistyczne.
-[00:04:12] Screen: (A slide is displayed. The word "STYL" is in a yellow box. The word "fotorealistyczny, akwarelowy" is listed below)
-[00:04:20] Speaker: Drugie to preferowana kolorystyka.
-[00:04:20] Screen: (A slide is displayed. The word "KOLORYSTYKA" is added to the slide in a green box. The words "czarno-biała, pastelowa" are listed below)
-[00:04:27] Speaker: Na przykład chcemy, żeby nasze zdjęcie było czarno-białe.
-[00:04:27] Speaker: Trzecie to dodatkowe parametry, jak na przykład chcemy, żeby zdjęcie było w proporcjach 16:9.
-[00:04:27] Screen: (A slide is displayed. The word "PARAMETRY" is added to the slide in a blue box. The words "proporcje obrazu 16:9" are listed below)
-[00:04:35] Speaker: I czwarte perspektywa.
-[00:04:37] Speaker: Chcemy, żeby nasze zdjęcie było z lotu ptaka.
-[00:04:37] Screen: (A slide is displayed. The word "PERSPEKTYWA" is added to the slide in a red box. The words "z lotu ptaka, z poziomu oczu" are listed below)
-[00:04:42] Speaker: Generatywna AI może wygenerować, oczywiście, o wiele wiele więcej.
-[00:04:49] Speaker: Mowa tutaj między innymi o tabelach, prezentacjach, mailach oraz arkuszach.
-[00:04:56] Speaker: Więcej o nich i innych kreatywnych elementach dowiecie się w dalszej części programu.
-[00:05:03] Speaker: Gratulacje.
-[00:05:05] Speaker: Dotarliście do końca.
-[00:05:06] Speaker: Zdaję sobie sprawę, że niektórym mogą głowy parować od ilości wiedzy i nowych pojęć.
-[00:05:12] Speaker: Dlatego, gdy już ochłoniecie i będziecie chcieli poeksperymentować z, to możecie zajrzeć do przygotowanego dla was pięcioetapowego schematu promptowania.
-[00:05:24] Speaker: Możecie go teraz pobrać na swoje telefony, komputery, tablety, by mieć go pod ręką.
-[00:05:31] Speaker: Możecie też wrócić do tej lekcji w dowolnym czasie.
-[00:05:35] Speaker: Generatywna sztuczna inteligencja może zrobić dla was bardzo wiele rzeczy, ale jednej na pewno nie zrobi.
-[00:05:43] Speaker: Nie zrobi pierwszego kroku, nie napiszę pierwszego prompta.
-[00:05:47] Speaker: Tutaj piłka jest po waszej stronie.
-[00:05:50] Speaker: Dziękuję za waszą uwagę i życzę jak najwięcej frajdy z odkrywania, eksperymentowania i iterowania z generatywną sztuczną inteligencją.
-[00:06:00] Screen: (The "Umiejętności Jutra AI" logo appears)
+[00:00:05] Łukasz Olejniczak: Większość osób z waszej branży, otoczenia, czy nawet miejsca pracy, może nawet nie słyszało o Gen AI.
+[00:00:13] Łukasz Olejniczak: Wiele z nich spróbowało napisać jakiegoś prompta i użyć tego do maila.
+[00:00:19] Łukasz Olejniczak: Bardzo mało osób jednak jeszcze używa AI regularnie w pracy, a jeszcze mniej stosuje zaawansowane techniki promptowania, o których zaraz opowiem.
+[00:00:31] Łukasz Olejniczak: Jeśli chcecie być najlepszy w korzystaniu z AI, to teraz warto się skupić.
+[00:00:36] Łukasz Olejniczak: Jedną z technik jest wykorzystanie wyniku jednego prompta jako kontekst w kolejnym poleceniu dla modelu.
+[00:00:44] Screen: Slajd prezentuje "Prompt chaining - ciąg podpowiedzi".
+-Wykorzystanie wyniku jednego prompta jako kontekstu w kolejnym poleceniu.
+-Pomaga modelowi rozwiązywać złożone problemy, dzieląc je na mniejsze kroki.
+[00:00:44] Łukasz Olejniczak: Nazywamy to prompt chainingiem.
+[00:00:48] Łukasz Olejniczak: Inaczej ciągiem podpowiedzi.
+[00:00:50] Łukasz Olejniczak: Prompt chaining prowadzi narzędzie AI przez serię połączonych ze sobą promptów, dodając kolejne zadania i warstwy kontekstowe.
+[00:01:02] Łukasz Olejniczak: Połączone prompty sprawiają, że pomagamy modelowi rozwiązać skomplikowane problemy, rozbijając je na mniejsze części.
+[00:01:11] Łukasz Olejniczak: I rozwiązując je później krok po kroku.
+[00:01:14] Łukasz Olejniczak: Taki ciąg podpowiedzi tworzy się w trzech krokach.
+[00:01:19] Screen: Slajd prezentuje "Prompt chaining - ciąg podpowiedzi".
+-Podziel zadanie na logiczne kroki.
+-Stwórz prompt dla każdego kroku.
+-Używaj wyników jako danych wejściowych do kolejnych promptów.
+[00:01:19] Łukasz Olejniczak: Zacznij od podzielenia złożonego zadania na logiczne kroki.
+[00:01:24] Łukasz Olejniczak: Skonstruuj prompt do każdego kroku i użyj danych wyjściowych z jednego promptu, jako danych wejściowych do następnego, iterując po drodze aż do ukończenia zadania.
+[00:01:40] Łukasz Olejniczak: Chain prompting to świetna technika na bardziej zaawansowane problemy.
+[00:01:46] Screen: Slajd prezentuje "Jak efektywniej wykorzystać chain prompting".
+-Używaj punktów kontrolnych.
+-Określono proś model o krótkie podsumowanie ogólnego celu.
+[00:01:46] Łukasz Olejniczak: Po pierwsze, zdefiniuj sobie punkty kontrolne.
+[00:01:57] Łukasz Olejniczak: Czyli określono proś model o krótkie podsumowanie ogólnego celu twojego pytania.
+[00:02:05] Screen: Slajd prezentuje "Jak efektywniej wykorzystać chain prompting".
+-Pracuj nad podzadaniami.
+-Podziel złożone zadania na mniejsze części. Traktuj każde podzadanie, jako krótszy tarcih, zanim przejdziesz do następnego kroku.
+[00:02:05] Łukasz Olejniczak: Po drugie, praca z podzadaniami.
+[00:02:09] Łukasz Olejniczak: Podziel bardzo złożone zadania na jeszcze mniejsze podzadania.
+[00:02:15] Screen: Slajd prezentuje "Jak efektywniej wykorzystać chain prompting".
+-Podsumuj i przekieruj.
+-Jeśli model odbiega od celu, podsumuj kluczowe informacje i skieruj go z powrotem do głównego celu.
+[00:02:15] Łukasz Olejniczak: Po trzecie, podsumowanie i przekierowanie.
+[00:02:20] Łukasz Olejniczak: Jeśli zauważysz, że model odbiega od pierwotnego celu twojego pytania, podsumuj najważniejsze informacje, które model zebrał do tej pory i przekieruj je w kolejnym promcie z powrotem do głównego celu.
+[00:02:35] Screen: Slajd prezentuje "Chain of Thought - łańcuch myśli".
+Łańcuch myśli, w którym sekwencje działań jest obsłużona jednym, bardziej rozbudowanym promptem. Przejście przez sekwencje logicznych kroków w ramach jednego promptu, zamiast wykonywać je jako osobne zapytania.
+[00:02:35] Łukasz Olejniczak: Istnieje również technika promptowania chain of thought.
+[00:02:40] Łukasz Olejniczak: Łańcuch myśli, w której sekwencja, którą przed chwilą przeszliśmy, jest obsłużona jednym, bardziej rozbudowanym promptem.
+[00:02:52] Łukasz Olejniczak: W promcie tym podajemy kroki i pewien tok rozumowania potrzebny do rozwiązania podobnego problemu.
+[00:03:02] Łukasz Olejniczak: Rozwiązanie tego podobnego problemu również polegało będzie na przejściu sekwencji logicznych kroków, które w poprzedniej technice wykonywaliśmy jako osobne prompty.
+[00:03:18] Łukasz Olejniczak: W technice chain of thought zakładamy, że model zastosuje podobny tok rozumowania i obsłuży wszystkie kroki jednym promptem.
+[00:03:30] Screen: Slajd prezentuje "Chain of Thought - łańcuch myśli".
+-Zwiększamy szansę na uzyskanie prawidłowej odpowiedzi.
+-Sprawdzamy się w zadaniach wymagających większego wysiłku intelektualnego.
+[00:03:30] Łukasz Olejniczak: Stosując te sposoby, zwiększamy szansę na prawidłową odpowiedź w przypadku zadań wymagających większego wysiłku intelektualnego.
+[00:03:42] Łukasz Olejniczak: Na koniec zostawiłem dla was coś specjalnego, czyli obrazy.
+[00:03:46] Screen: Slajd prezentuje "Jak stworzyć dobry prompt pod obrazek?".
+-Precyzyjny opis: Jasno określ, co chcesz uzyskać.
+[00:03:46] Łukasz Olejniczak: A dokładniej, generowanie obrazów, ilustracji, czy też zdjęć do dowolnego zastosowania.
+[00:03:54] Łukasz Olejniczak: W materiałach na stronę, do prezentacji, w kampaniach, czy do mediów społecznościowych.
+[00:04:01] Łukasz Olejniczak: Dobry prompt pod obrazek zawiera to wszystko, co już wiecie, czyli precyzyjny opis czego oczekujemy.
+[00:04:09] Łukasz Olejniczak: Plus cztery dodatkowe rzeczy.
+[00:04:11] Screen: Slajd prezentuje "Jak stworzyć dobry prompt pod obrazek?".
+-STYL fotorealistyczny, akwarelowy.
+[00:04:11] Łukasz Olejniczak: Styl obrazka, na przykład chcemy, żeby nasze zdjęcie było wygenerowane jako fotorealistyczne.
+[00:04:19] Screen: Slajd prezentuje "Jak stworzyć dobry prompt pod obrazek?".
+-KOLORYSTYKA czarno-biała, pastelowa.
+[00:04:19] Łukasz Olejniczak: Drugie to preferowana kolorystyka.
+[00:04:24] Łukasz Olejniczak: Na przykład chcemy, żeby nasze zdjęcie było czarno-białe.
+[00:04:27] Screen: Slajd prezentuje "Jak stworzyć dobry prompt pod obrazek?".
+-PARAMETRY proporcje obrazu 16:9.
+[00:04:27] Łukasz Olejniczak: Trzecie to dodatkowe parametry, jak na przykład chcemy, żeby zdjęcie było w proporcjach 16 na 9.
+[00:04:34] Screen: Slajd prezentuje "Jak stworzyć dobry prompt pod obrazek?".
+-PERSPEKTYWA z lotu ptaka, z poziomu oczu.
+[00:04:34] Łukasz Olejniczak: I czwarte perspektywa.
+[00:04:37] Łukasz Olejniczak: Chcemy, żeby nasze zdjęcie było z lotu ptaka.
+[00:04:42] Łukasz Olejniczak: Generatywna AI może wygenerować oczywiście o wiele, wiele więcej.
+[00:04:48] Łukasz Olejniczak: Mowa tutaj między innymi o tabelach, prezentacjach, mailach oraz arkuszach.
+[00:04:56] Łukasz Olejniczak: Więcej o nich i innych kreatywnych elementach dowiecie się w dalszej części programu.
+[00:05:03] Łukasz Olejniczak: Gratulacje.
+[00:05:05] Łukasz Olejniczak: Dotarliście do końca.
+[00:05:07] Łukasz Olejniczak: Zdaję sobie sprawę, że niektórym mogą głowy parować od ilości wiedzy i nowych pojęć.
+[00:05:12] Łukasz Olejniczak: Dlatego, gdy już ochłoniecie i będziecie chcieli poeksperymentować z GenAI, to możecie zajrzeć do przygotowanego dla was pięcioetapowego schematu promptowania.
+[00:05:24] Łukasz Olejniczak: Możecie go teraz pobrać na swoje telefony, komputery, tablety, by mieć go pod ręką.
+[00:05:31] Łukasz Olejniczak: Możecie też wrócić do tej lekcji w dowolnym czasie.
+[00:05:35] Łukasz Olejniczak: Generatywna sztuczna inteligencja może zrobić dla was bardzo wiele rzeczy, ale jednej na pewno nie zrobi.
+[00:05:42] Łukasz Olejniczak: Nie zrobi pierwszego kroku.
+[00:05:45] Łukasz Olejniczak: Nie napiszę pierwszego prompta.
+[00:05:48] Łukasz Olejniczak: Tutaj piłka jest po waszej stronie.
+[00:05:50] Łukasz Olejniczak: Dziękuję za waszą uwagę i życzę jak najwięcej frajdy z odkrywania, eksperymentowania i iterowania z generatywną sztuczną inteligencją.
 
 ___
 # 🏷️ Tags
-#ai #sztuczna_inteligencja #prompt #prompt_engineering #prompt_chaining #ciąg_podpowiedzi #chain_of_thought #łańcuch_myśli #generatywna_ai #generowanie_obrazów #prompt_do_obrazka #precyzyjny_opis #styl_obrazka #kolorystyka #parametry_obrazu #perspektywa_obrazu #punkt_kontrolny #podzadania #podsumowanie #przekierowanie #zaawansowane_techniki_promptowania #efektywne_wykorzystanie_ai #eksperymentowanie_z_ai #iterowanie_z_ai #narzędzia_ai #jenny_ai #złożone_problemy #logiczne_kroki #większy_wysiłek_intelektualny #tabele #prezentacje #maile #arkusze_kalkulacyjne #pięcioetapowy_schemat_promptowania #fotorealistyczny #akwarelowy #czarno-biała #pastelowa #proporcje_obrazu_16:9 #z_lotu_ptaka #z_poziomu_oczu
+#Gen_AI #promptowanie #zaawansowane_techniki_promptowania #AI #prompt_chaining #ciąg_podpowiedzi #model_AI #logiczne_kroki #dane_wejściowe #iteracja #punkty_kontrolne #podzadania #podsumowanie #przekierowanie #chain_of_thought #łańcuch_myśli #rozumowanie #intelektualne_myślenie #prompt_obrazkowy #opis #styl #kolorystyka #parametry #perspektywa #generowanie_obrazów #fotorealistyczny #czarno-biała #proporcje_obrazu #lot_ptaka #tabela #prezentacja #mail #arkusz_kalkulacyjny #eksperymentowanie #inicjatywa #iteracyjne_doskonalenie #pięcioetapowy_schemat_promptowania
