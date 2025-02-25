@@ -61,7 +61,7 @@ mindmap
 ```
 
 ## Notatka
-```markdown
+
 # Podsumowanie Kursu: Kluczowe Punkty i Wskazówki
 
 Poniżej znajdziesz esencję kursu – kluczowe informacje i wskazówki z każdej lekcji.  Zebraliśmy najważniejsze punkty, aby ułatwić Ci zrozumienie omawianych zagadnień i ich praktyczne zastosowanie. To podsumowanie pomoże Ci utrwalić główne zasady i sprawnie wdrożyć zdobytą wiedzę w Twoich projektach.
@@ -97,7 +97,7 @@ Poniżej znajdziesz esencję kursu – kluczowe informacje i wskazówki z każde
 ## Podsumowanie
 
 To podsumowanie kursu koncentruje się na kluczowych aspektach GenAI, LLM i inżynierii promptów.  Kurs ma na celu wyjaśnienie, czym są generatywne modele AI i duże modele językowe, oraz jak efektywnie z nimi pracować poprzez projektowanie skutecznych promptów.  Kluczowe jest zrozumienie pięcioetapowego podejścia do tworzenia promptów,  znaczenia podejścia "człowiek w pętli", a także poznanie różnorodnych metod i zaawansowanych technik promptowania. Kurs podkreśla szerokie spektrum zastosowań GenAI i LLM,  jednocześnie akcentując niezastąpioną rolę człowieka w weryfikacji i ulepszaniu generowanych wyników.  Zrozumienie tych zasad umożliwi efektywne wykorzystanie potencjału AI w różnorodnych projektach.
-```
+
 
 ### Original Transcript
 **Podsumowanie Kursu**
