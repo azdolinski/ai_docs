@@ -1,4 +1,5 @@
-# Szczegółowe Notatki i Podsumowanie Transkrypcji Wideo
+# File: T1D3 - Lekcje wideo - 1. Kim jest internauta dźwięku i co to ElevenLabs.md
+## Szczegółowe Notatki i Podsumowanie Transkrypcji Wideo
 
 ## Wprowadzenie do Tematu `AI Audio` i ElevenLabs
 
@@ -50,7 +51,8 @@ Transkrypcja wideo przedstawia Kamila Sołdackiego, który wprowadza słuchaczy 
 
 Kamil Sołdacki w swoim wprowadzeniu prezentuje się jako "internista dźwięku" i wprowadza słuchaczy w świat **AI Audio**, przedstawiając firmę **ElevenLabs**, w której pracuje. **ElevenLabs** koncentruje swoje działania na rozwoju zaawansowanych technologii **AI**, umożliwiających generowanie realistycznej mowy w wielu językach i różnorodnych głosach, znajdujących zastosowanie w sektorach od edukacji po rozrywkę. Prezentacja stanowi zapowiedź szczegółowego omówienia tematyki **AI Audio** w ramach programu "Umiejętności Jutra AI", akcentując innowacyjność technologii i istotę współpracy w jej rozwoju. Głównym celem jest ukazanie potencjału **AI Audio** i zachęcenie uczestników programu do dalszego eksplorowania tej dziedziny.
 ___
-# Notatki i Podsumowanie Transkrypcji Wideo „Umiejętności Jutra” o ElevenLabs
+# File: T1D3 - Lekcje wideo - 2. Narzędzia ElevenLabs, które zmieniają reguły gry.md
+## Notatki i Podsumowanie Transkrypcji Wideo „Umiejętności Jutra” o ElevenLabs
 
 ## Wprowadzenie do ElevenLabs
 
@@ -147,7 +149,8 @@ ___
 
 ElevenLabs to wszechstronna platforma oferująca zaawansowane narzędzia do generowania i modyfikacji mowy. Prezentacja podkreśla łatwość dostępu oraz szerokie spektrum zastosowań, od klonowania i projektowania głosów, poprzez zamianę tekstu na mowę w wielu językach, aż po generowanie efektów dźwiękowych i tworzenie dubbingu. Platforma umożliwia użytkownikom tworzenie wysokiej jakości treści audio bez specjalistycznej wiedzy czy specjalistycznego sprzętu, otwierając nowe możliwości dla twórców treści, firm i użytkowników indywidualnych. Szczególnie istotne funkcje to **Voice Cloning**, **Text to Speech**, **Voice Changer**, **Sound Effects Generator**, **Dubbing Studio** i **Conversational AI**, które razem tworzą kompleksowe środowisko do pracy z dźwiękiem. Dodatkowo, `Library` i `Collections` usprawniają wybór i zarządzanie głosami, a `Eleven Reader` rozszerza funkcjonalność platformy na aplikację mobilną do konsumpcji treści tekstowych w formie audio. ElevenLabs nieustannie się rozwija, zapowiadając nowe narzędzia i innowacyjne rozwiązania w przyszłości.
 ___
-# Notatki i Podsumowanie Wideo o Narzędziach Eleven Labs
+# File: T1D3 - Lekcje wideo - 3. Twój profesjonalny klon głosu.md
+## Notatki i Podsumowanie Wideo o Narzędziach Eleven Labs
 
 ## Wprowadzenie
 
@@ -290,7 +293,8 @@ Wideo szczegółowo prezentuje trzy narzędzia oferowane przez Eleven Labs: **Te
 
 Wideo przedstawiło narzędzia Eleven Labs, z naciskiem na **Text to Speech** i **Audio Native**. Omówiono kluczowe aspekty generowania mowy, wybór głosów i modeli, ustawienia głosu w **Text to Speech**, a także konfigurację, personalizację i wdrażanie **Audio Native**. Na koniec zaprezentowano proces tworzenia **profesjonalnego klonu głosu**. Narzędzia Eleven Labs oferują zaawansowane możliwości w zakresie generowania mowy i wzbogacania treści audio na stronach internetowych.
 ___
-# Notatki i Podsumowanie Prezentacji Wideo: "Umiejętności Jutra AI"
+# File: T1D3 - Lekcje wideo - 4. Zainspiruj świat swoim dźwiękiem.md
+## Notatki i Podsumowanie Prezentacji Wideo: "Umiejętności Jutra AI"
 
 ## Wprowadzenie
 
